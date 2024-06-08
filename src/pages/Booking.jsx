@@ -1,7 +1,12 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 function Booking() {
-  return <div>Booking</div>;
+  return (
+    <Element name="bookingSection">
+      <div>Booking</div>
+    </Element>
+  );
 }
 
 export default Booking;
