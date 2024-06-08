@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./pages/Hero";
 import Research from "./pages/Research";
@@ -8,13 +9,17 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main>
-      <Navbar />
-      <Hero />
-      <Research />
-      <Booking />
-      <About />
-      <Footer />
+    <main className="flex min-h-screen flex-col bg-blue-950">
+      <Router>
+        <Navbar />
+        <div className="container mt-24 mx-auto px-12 py-4">
+          <Hero />
+          <Research />
+          <Booking />
+          <About />
+        </div>
+        <Footer />
+      </Router>
     </main>
   );
 }
