@@ -1,7 +1,12 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 function Research() {
-  return <div>Research</div>;
+  return (
+    <Element name="researchSection">
+      <div>Research</div>
+    </Element>
+  );
 }
 
 export default Research;
