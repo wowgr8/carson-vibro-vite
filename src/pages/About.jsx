@@ -1,7 +1,12 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 function About() {
-  return <div>About</div>;
+  return (
+    <Element name="aboutSection">
+      <div>About</div>
+    </Element>
+  );
 }
 
 export default About;
