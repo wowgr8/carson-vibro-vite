@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import Pebbles from "../../public/pebbles.mp4";
+import Pebbles from "../assets/video/pebblesHD.mp4";
 
 function Hero() {
   return (
@@ -8,7 +8,6 @@ function Hero() {
       name="hero"
       className="relative flex h-[80vh] shrink-0 flex-col items-center justify-center"
     >
-      {/* <section class=""> */}
       <video
         className="absolute h-full w-full object-cover z-10"
         muted
@@ -48,7 +47,6 @@ function Hero() {
           </a>
         </div>
       </div>
-      {/* </section> */}
     </Element>
   );
 }
