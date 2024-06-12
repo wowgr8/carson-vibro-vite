@@ -6,7 +6,7 @@ function Hero() {
   return (
     <Element
       name="hero"
-      className="relative flex h-[80vh] shrink-0 flex-col items-center justify-center"
+      className="relative flex h-[90vh] shrink-0 flex-col items-center justify-center"
     >
       <video
         className="absolute h-full w-full object-cover z-10"
