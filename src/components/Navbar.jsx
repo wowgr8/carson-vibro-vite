@@ -26,7 +26,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-blue-950">
+    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-50 bg-blue-950">
       <div className="flex container lg-py-4 flex-wrap">
         <ScrollLink to="hero" smooth={true} duration={500}>
           {/* <img src={Logo} alt="Logo" width={160} height={40} /> */}
