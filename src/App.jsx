@@ -12,8 +12,8 @@ function App() {
     <main className="flex min-h-screen flex-col bg-blue-950">
       <Router>
         <Navbar />
-        <div className="container mt-24 mx-auto px-12 py-4">
-          <Hero />
+        <Hero />
+        <div className="container mt-4 mx-auto py-4">
           <Research />
           <Booking />
           <About />
