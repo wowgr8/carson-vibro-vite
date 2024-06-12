@@ -4,7 +4,72 @@ import { Element } from "react-scroll";
 function Research() {
   return (
     <Element name="researchSection">
-      <div>Research</div>
+      <div className="flex flex-col items-center justify-center mt-5">
+        <h1 className="text-4xl font-bold mb-4 text-black dark:text-white">
+          What Is Vibroacoustic Therapy?
+        </h1>
+        <h2 className="text-1xl text-black dark:text-white">
+          The human body is a complex cellular communication system relying on
+          the continuous flow of chemical and electrical signals in order to
+          maintain itself. When the flow of this information is compromised or
+          imbalanced, it can cause physical, cognitive or emotional issues to
+          arise. Vibroacoustic Therapy is a unique, evidence-based form of
+          therapy that combines sound and vibration to support the body at a
+          deeper level and facilitate it in more efficiently restoring normal
+          communication pathways and optimal function.
+        </h2>
+      </div>
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <img
+          src="//sagespacetechnologies.com/cdn/shop/files/Bed_1024x1024.gif?v=1679135086"
+          alt="Image of person laying on vibroacoustic therapy bed"
+        ></img>
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+          <h2 className="text-4xl font-bold text-black dark:text-white mb-4">
+            How It Works?
+          </h2>
+          <p className="text-base md:text-lg text-black dark:text-white mb-2">
+            Vibroacoustic Therapy works by delivering a wide range of sound
+            waves into the body, where they are converted by the body into
+            electrical signals. This process influences the overall energetic
+            state of the body and serves to promote the return of compromised
+            cells to a state of homeostasis (balance), which ultimately supports
+            an ideal state of health.
+          </p>
+          <p className="text-base md:text-lg text-black dark:text-white">
+            In addition to its therapeutic benefits, Vibroacoustic Therapy also
+            offers an immersive, pleasurable experience. The therapy can change
+            one's sensations and overall perception of the body in space,
+            entrain the brainwave patterns to states of deep meditation, and
+            promote non-ordinary states of consciousness. This connected state
+            can provide an individual with the ability to achieve unique
+            benefits for modern-day living.
+          </p>
+          {/* <div className="flex flex-row mt-8">
+            <SkillsButton
+              selectTab={() => handleTabChange("socials")}
+              active={tab === "socials"}
+            >
+              Socials
+            </SkillsButton>
+            <SkillsButton
+              selectTab={() => handleTabChange("skills")}
+              active={tab === "skills"}
+            >
+              Skills
+            </SkillsButton>
+            <SkillsButton
+              selectTab={() => handleTabChange("education")}
+              active={tab === "education"}
+            >
+              Education
+            </SkillsButton>
+          </div> 
+          <div className="mt-8 ">
+            {ABOUT_ME_DATA.find((t) => t.id === tab).content}
+          </div> */}
+        </div>
+      </div>
     </Element>
   );
 }
