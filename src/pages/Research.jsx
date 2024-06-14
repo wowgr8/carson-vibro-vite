@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import { BenefitsList } from "../helpers/Benefits";
 
 function Research() {
   return (
@@ -49,7 +50,27 @@ function Research() {
             benefits for modern-day living.
           </p>
           {/* GRID SECTION - FOR CONSUMERS DETAILS */}
-          <div className="grid grid-cols-3 gap-4"></div>
+          <div className="grid grid-cols-3 gap-4">
+            <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+              {BenefitsList.map((benefit, index) => {
+                return (
+                  // <motion.li
+                  // key={benefit.id}
+                  // variants={cardVariants}
+                  // initial="initial"
+                  // animate={isInView ? "animate" : "initial"}
+                  // transition = {{duration: 0.3, delay:index * 0.4 }}
+                  // >
+                  
+                    key={index}
+                    image={benefit.image}
+                    description={benefit.description}
+                  
+                  // </motion.li>
+                );
+              }))}
+            </ul>
+          </div>
         </div>
       </div>
     </Element>
