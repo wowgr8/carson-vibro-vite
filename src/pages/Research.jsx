@@ -79,9 +79,11 @@ function Research() {
             <img
               src={benefit.image}
               alt={benefit.description}
-              className="mb-4"
+              className="mx-auto"
             />
-            <p className="text-black dark:text-white">{benefit.description}</p>
+            <p className="text-black dark:text-white mt-4">
+              {benefit.description}
+            </p>
           </div>
         ))}
       </div>
