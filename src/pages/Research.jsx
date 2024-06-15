@@ -50,7 +50,7 @@ function Research() {
             benefits for modern-day living.
           </p>
           {/* GRID SECTION - FOR CONSUMERS DETAILS */}
-          <div className="grid grid-cols-3 gap-4">
+          {/* <div className="grid grid-cols-3 gap-4">
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
               {BenefitsList.map((benefit, index) => {
                 return (
@@ -70,8 +70,20 @@ function Research() {
                 );
               }))}
             </ul>
-          </div>
+          </div> */}
         </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {BenefitsList.map((benefit) => (
+          <div key={benefit.id} className="p-4 border rounded-lg text-center">
+            <img
+              src={benefit.image}
+              alt={benefit.description}
+              className="mb-4"
+            />
+            <p className="text-black dark:text-white">{benefit.description}</p>
+          </div>
+        ))}
       </div>
     </Element>
   );
