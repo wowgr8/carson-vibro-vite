@@ -8,10 +8,7 @@ function Hero() {
       className="relative flex h-[90vh] shrink-0 flex-col items-center justify-center"
     >
       <div className="absolute h-full w-full z-10">
-        <div
-          className="absolute top-0 left-0 w-full h-full overflow-hidden object-cover"
-          // style={{ paddingTop: "56.25%" }} // Maintain 16:9 aspect ratio
-        >
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden object-cover">
           <iframe
             src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
             frameBorder="0"
