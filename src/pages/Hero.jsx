@@ -16,7 +16,7 @@ function Hero() {
             src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-            className="absolute top-0 left-0 w-full h-full"
+            className="absolute top-0 left-0 w-full aspect-video"
             title="pebblesHD"
           ></iframe>
         </div>
