@@ -1,6 +1,5 @@
 import React from "react";
 import { Element } from "react-scroll";
-import Pebbles from "../assets/video/pebblesHD.mp4";
 
 function Hero() {
   return (
@@ -8,19 +7,23 @@ function Hero() {
       name="hero"
       className="relative flex h-[90vh] shrink-0 flex-col items-center justify-center"
     >
-      <video
-        className="absolute h-full w-full object-cover z-10"
-        muted
-        autoPlay
-        loop
-        playsInline
-        disablePictureInPicture
-      >
-        <source src={Pebbles} type="video/mp4" />
-      </video>
+      <div className="absolute h-full w-full z-10">
+        <div
+          className="absolute top-0 left-0 w-full h-full overflow-hidden object-cover"
+          // style={{ paddingTop: "56.25%" }} // Maintain 16:9 aspect ratio
+        >
+          <iframe
+            src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            className="absolute top-0 left-0 w-full h-full"
+            title="pebblesHD"
+          ></iframe>
+        </div>
+      </div>
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-20">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          Let go of you Mind. Let go of you body. Find your Self.
+          Let go of your mind. Let go of your body. Find your Self.
         </h1>
         <h2 className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-600">
           A fully immersive, therapeutic sound experience designed to promote
