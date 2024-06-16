@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 function Hero() {
   return (
     <Element
-      name="hero"
+      name="heroSection"
       className="relative flex h-[90vh] shrink-0 flex-col items-center justify-center"
     >
       <div className="absolute h-full w-full z-10">
