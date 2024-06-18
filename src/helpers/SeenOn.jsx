@@ -44,7 +44,7 @@ export const SeenOnList = [
   {
     id: 8,
     image:
-      "//sagespacetechnologies.com/cdn/shop/files/Y…news_logo_1024x1024_1_1024x1024.webp?v=1690271247",
+      "//sagespacetechnologies.com/cdn/shop/files/Yahoo_news_logo_1024x1024_1_1024x1024.webp?v=1690271247",
     description: "Yahoo News",
   },
 ];
