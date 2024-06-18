@@ -26,7 +26,7 @@ export const SeenOnList = [
   {
     id: 5,
     image:
-      "//sagespacetechnologies.com/cdn/shop/files/L…ekly_logo_1024x1024_1_1024x1024.webp?v=1690271396",
+      "//sagespacetechnologies.com/cdn/shop/files/LA_Weekly_logo_1024x1024_1_1024x1024.webp?v=1690271396",
     description: "LA Weekly",
   },
   {
