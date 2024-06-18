@@ -38,7 +38,7 @@ export const SeenOnList = [
   {
     id: 7,
     image:
-      "//sagespacetechnologies.com/cdn/shop/files/M…aire_logo_1024x1024_1_1024x1024.webp?v=1690271297",
+      "//sagespacetechnologies.com/cdn/shop/files/Marie_Claire_logo_1024x1024_1_1024x1024.webp?v=1690271297",
     description: "Marie Claire",
   },
   {
