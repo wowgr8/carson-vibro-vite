@@ -20,6 +20,22 @@ function Research() {
           communication pathways and optimal function.
         </h2>
       </div>
+      {/* SEEN ON BANNER SECTION: */}
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {BenefitsList.map((benefit) => (
+          <div key={benefit.id} className="p-4 border rounded-lg text-center">
+            <img
+              src={benefit.image}
+              alt={benefit.description}
+              className="mx-auto"
+            />
+            <p className="text-black dark:text-white mt-4">
+              {benefit.description}
+            </p>
+          </div>
+        ))}
+      </div> */}
+
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <img
           src="//sagespacetechnologies.com/cdn/shop/files/Bed_1024x1024.gif?v=1679135086"
