@@ -15,11 +15,11 @@ function Booking() {
 
   return (
     <Element name="bookingSection">
-      <div className="flex flex-col items-center justify-center mt-5">
+      <div className="items-center justify-center mt-5">
         {/* <!-- Calendly inline widget begin --> */}
         <div
           className="calendly-inline-widget"
-          data-url="https://calendly.com/773ohh/vibe-thrive-session"
+          data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1"
           style={{ minWidth: "320px", height: "700px" }}
         ></div>
         {/* <!-- Calendly inline widget end --> */}
