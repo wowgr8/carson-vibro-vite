@@ -93,7 +93,7 @@ function Research() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {BenefitsList.map((benefit) => (
-          <div key={benefit.id} className="p-4 border rounded-lg text-center">
+          <div key={benefit.id} className="p-4 text-center">
             <img
               src={benefit.image}
               alt={benefit.description}
