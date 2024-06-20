@@ -4,7 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
   return (
-    <div className="w-full h-250 bg-blue-950 flex flex-col justify-center items-center pt-12 mt-250">
+    <div className="w-full bg-blue-950 flex flex-col justify-center items-center pt-3 ">
       <div className="flex">
         <a
           href="https://github.com/wowgr8"
@@ -25,7 +25,7 @@ function Footer() {
           <AiOutlineMail />
         </a>
       </div>
-      <p className="text-white text-md">&copy; 2022 github.com/wowgr8</p>
+      <p className="text-white text-md">&copy; 2024 github.com/wowgr8</p>
     </div>
   );
 }
