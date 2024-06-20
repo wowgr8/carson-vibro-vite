@@ -5,7 +5,7 @@ function Hero() {
   return (
     <Element
       name="heroSection"
-      className="relative flex h-[90vh] shrink-0 flex-col items-center justify-center"
+      className="relative flex lg:h-[90vh] shrink-0 flex-col items-center justify-center bg-red-400"
     >
       {/* Container for the video background */}
       <div className="absolute inset-0 z-10 overflow-hidden">
@@ -13,7 +13,7 @@ function Hero() {
           src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-          className="w-full h-full object-cover"
+          className="w-full aspect-video object-cover"
           title="pebblesHD"
         ></iframe>
       </div>
