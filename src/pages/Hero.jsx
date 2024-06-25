@@ -19,7 +19,7 @@ function Hero() {
       </div>
 
       {/* Container for the text */}
-      <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-20">
+      <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-20 bg-green-300">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Let go of your mind. Let go of your body. Find your Self.
         </h1>
