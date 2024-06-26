@@ -18,11 +18,11 @@ function Research() {
           arise. Vibroacoustic Therapy is a unique, evidence-based form of
           therapy that combines sound and vibration to support the body at a
           deeper level and facilitate it in more efficiently restoring normal
-          communication pathways and optimal function.
+          communication pathways and optimal function. Vibroacoustic Therapy has
+          been featured in...
         </h2>
       </div>
       {/* SEEN ON BANNER SECTION: */}
-      <h2>Vibroacoustic Therapy has been featured in...</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {SeenOnList.map((outlet) => (
           <div key={outlet.id} className="p-4 text-center">
