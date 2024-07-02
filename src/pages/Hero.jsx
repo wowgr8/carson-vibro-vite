@@ -1,25 +1,37 @@
 import React from "react";
 import { Element } from "react-scroll";
+import { useMediaQuery } from "react-responsive";
+import PebblesStill from "../assets/img/pebblesHDstill.jpg";
 
 function Hero() {
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 640px)" });
+
   return (
     <Element
       name="heroSection"
-      className="relative flex lg:h-[90vh] shrink-0 flex-col items-center justify-center bg-red-400"
+      className="relative flex lg:h-[90vh] sm:h-[90vh] shrink-0 flex-col items-center justify-center bg-red-400"
     >
-      {/* Container for the video background */}
+      {/* Container for the video or image background */}
       <div className="absolute inset-0 z-10 overflow-hidden">
-        <iframe
-          src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
-          frameBorder="0"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-          className="w-full aspect-video object-cover"
-          title="pebblesHD"
-        ></iframe>
+        {isSmallScreen ? (
+          <img
+            src={PebblesStill}
+            alt="Still Image"
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <iframe
+            src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            className="w-full h-full object-cover"
+            title="pebblesHD"
+          ></iframe>
+        )}
       </div>
 
       {/* Container for the text */}
-      <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-20 bg-green-300">
+      <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-20">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Let go of your mind. Let go of your body. Find your Self.
         </h1>
