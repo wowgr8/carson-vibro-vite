@@ -4,11 +4,15 @@ import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
   return (
-    <div className="w-full bg-blue-950 flex flex-col justify-center items-center pt-3 ">
-      {/* placeholder for location address to the left */}
-      {/* placeholder for location map box */}
+    <div className="bg-blue-950">
+      <div className="w-full  flex flex-col justify-center  pt-3 ">
+        {/* placeholder for location address to the left */}
 
-      <p className="text-white text-md">&copy; 2024 github.com/wowgr8</p>
+        {/* placeholder for location map box */}
+      </div>
+      <div class="flex py-5 m-auto dark:text-white text-gray-800 text-sm flex-col items-center border-t max-w-screen-xl">
+        <p>&copy; 2024 github.com/wowgr8</p>
+      </div>
     </div>
   );
 }
