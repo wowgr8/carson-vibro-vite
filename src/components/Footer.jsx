@@ -8,7 +8,15 @@ function Footer() {
       {/* placeholder for location address to the left */}
       {/* placeholder for location map box */}
 
-      {/* <div className="flex">
+      <p className="text-white text-md">&copy; 2024 github.com/wowgr8</p>
+    </div>
+  );
+}
+
+export default Footer;
+
+{
+  /* <div className="flex">
         <a
           href="https://github.com/wowgr8"
           className="text-yellow-300 hover:text-yellow-400 m-7 text-3xl"
@@ -27,10 +35,5 @@ function Footer() {
         >
           <AiOutlineMail />
         </a>
-      </div> */}
-      <p className="text-white text-md">&copy; 2024 github.com/wowgr8</p>
-    </div>
-  );
+      </div> */
 }
-
-export default Footer;
