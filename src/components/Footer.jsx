@@ -7,11 +7,13 @@ function Footer() {
     <div className="bg-blue-950">
       <div className="max-w-screen-xl py-10 px-4 sm:px-6 dark:text-white text-gray-800 sm:flex justify-between mx-auto">
         {/* placeholder for location address to the left */}
-        <div className="p-5 sm:w-8/12">
+        <div className="p-5 sm:w-8/12 ">
           <p>ADDRESS</p>
         </div>
         {/* placeholder for location map box */}
-        <p>MAP</p>
+        <div className="p-5 sm:w-4/12">
+          <p>MAP</p>
+        </div>
       </div>
       <div className="flex py-5 m-auto dark:text-white text-gray-800 text-sm flex-col items-center border-t max-w-screen-xl">
         <p>&copy; 2024 github.com/wowgr8</p>
