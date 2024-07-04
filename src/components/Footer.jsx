@@ -7,11 +7,11 @@ function Footer() {
     <div className="bg-blue-950">
       <div className="max-w-screen-xl py-10 px-4 sm:px-6 dark:text-white text-gray-800 sm:flex justify-between mx-auto">
         {/* placeholder for location address to the left */}
-        <div className="p-5 sm:w-8/12 ">
+        <div className="p-5 sm:w-8/12 bg-red-500">
           <p>ADDRESS</p>
         </div>
         {/* placeholder for location map box */}
-        <div className="p-5 sm:w-4/12">
+        <div className="p-5 sm:w-4/12 bg-green-500">
           <p>MAP</p>
         </div>
       </div>
