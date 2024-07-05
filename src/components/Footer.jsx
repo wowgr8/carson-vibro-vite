@@ -18,6 +18,15 @@ function Footer() {
         {/* placeholder for location map box */}
         <div className="p-5 sm:w-5/12 bg-green-500">
           <p>MAP</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.8728214636294!2d-122.62123792350295!3d45.49250573154936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a070935d5ce5%3A0xefeed5e3b1ec70ef!2s4204%20SE%20Boise%20St%2C%20Portland%2C%20OR%2097206!5e0!3m2!1sen!2sus!4v1720203368890!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            // style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
       <div className="flex py-5 m-auto dark:text-white text-gray-800 text-sm flex-col items-center border-t max-w-screen-xl">
