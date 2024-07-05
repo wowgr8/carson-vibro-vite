@@ -7,8 +7,8 @@ function Footer() {
     <div className="bg-blue-950">
       <div className="max-w-screen-xl py-10 px-4 sm:px-6 dark:text-white text-gray-800 sm:flex justify-between mx-auto">
         {/* placeholder for location address to the left */}
-        <div className="p-5 sm:w-7/12 bg-red-500">
-          <h3 className="font-bold text-3xl dark:text-white text-gray-800 mb-4">
+        <div className="p-5 sm:w-7/12 bg-red-500 lg:flex lg:flex-col lg:items-center lg:justify-center">
+          <h3 className="font-bold text-5xl dark:text-white text-indigo-600 mb-4">
             Vibe & Thrive
           </h3>
           <h3 className="text-xl dark:text-white text-gray-800 mb-4">
