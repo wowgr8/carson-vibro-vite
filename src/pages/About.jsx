@@ -3,7 +3,10 @@ import { Element } from "react-scroll";
 
 function About() {
   return (
-    <Element name="aboutSection">
+    <Element
+      name="aboutSection"
+      className="relative bg-white overflow-hidden mt-16"
+    >
       <div>About</div>
     </Element>
   );
