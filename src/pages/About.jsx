@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import CarsonTEMP from "../assets/img/carson-goff-temp.jpeg";
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
       className="relative bg-white overflow-hidden mt-16"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+        <div className="relative z-10 pb-8 bg-red-500 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
             fill="currentColor"
@@ -40,10 +41,10 @@ function About() {
           </main>
         </div>
       </div>
-      <div className="bg-red-500 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           class="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg"
+          src={CarsonTEMP}
           alt="A headshot image of the practitioner, Carson Goff"
         />
       </div>
