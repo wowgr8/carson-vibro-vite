@@ -25,6 +25,17 @@ function About() {
               <h2 className="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
                 MEET YOUR PRACTITIONER
               </h2>
+
+              <p>
+                Donec porttitor, enim ut dapibus lobortis, lectus sem tincidunt
+                dui, eget ornare lectus ex non libero. Nam rhoncus diam ultrices
+                porttitor laoreet. Ut mollis fermentum ex, vel viverra lorem
+                volutpat sodales. In ornare porttitor odio sit amet laoreet. Sed
+                laoreet, nulla a posuere ultrices, purus nulla tristique turpis,
+                hendrerit rutrum augue quam ut est. Fusce malesuada posuere
+                libero, vitae dapibus eros facilisis euismod. Sed sed lobortis
+                justo, ut tincidunt velit. Mauris in maximus eros.
+              </p>
             </div>
           </main>
         </div>
