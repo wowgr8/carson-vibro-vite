@@ -18,7 +18,11 @@ function About() {
           >
             <polygon points="50,0 100,0 50,100 0,100"></polygon>
           </svg>
-          <div>About</div>
+
+          <div class="pt-1"></div>
+          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <div>About</div>
+          </main>
         </div>
       </div>
     </Element>
