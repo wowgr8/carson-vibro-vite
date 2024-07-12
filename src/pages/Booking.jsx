@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Element } from "react-scroll";
+import SpaceBG from "../assets/img/purple-space-background.jpg";
 
 function Booking() {
   useEffect(() => {
@@ -14,7 +15,14 @@ function Booking() {
   }, []);
 
   return (
-    <Element name="bookingSection">
+    <Element
+      name="bookingSection"
+      style={{
+        backgroundImage: `url(${SpaceBG})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="items-center justify-center mt-5">
         {/* <!-- Calendly inline widget begin --> */}
         <div
