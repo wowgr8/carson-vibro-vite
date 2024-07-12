@@ -7,29 +7,23 @@ function About() {
   return (
     <Element
       name="aboutSection"
-      className="relative bg-white overflow-hidden mt-16"
+      className="relative overflow-hidden mt-16"
+      style={{
+        backgroundImage: `url(${SpaceBG})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
-      <div className="max-w-7xl mx-auto">
-        <div
-          className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
-          style={{
-            backgroundImage: `url(${SpaceBG})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
+      <div className="relative z-10 lg:flex lg:items-center">
+        <div className="lg:w-1/2 lg:h-full pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
           <svg
-            // text-transparent to hide dividing svg or remove completely - WIP
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-24 transform translate-x-1/2 text-inherit"
             fill="currentColor"
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
             aria-hidden="true"
           >
-            <polygon
-              points="50,0 100,0 50,100 0,100"
-              // style={{ fill: "inherit" }}
-            ></polygon>
+            <polygon points="50,0 100,0 50,100 0,100"></polygon>
           </svg>
 
           <div className="pt-1"></div>
@@ -52,13 +46,13 @@ function About() {
             </div>
           </main>
         </div>
-      </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
-          class="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src={CarsonTEMP}
-          alt="A headshot image of the practitioner, Carson Goff"
-        />
+        <div className="lg:w-1/2 lg:h-full py-10 px-10">
+          <img
+            className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
+            src={CarsonTEMP}
+            alt="A headshot image of the practitioner, Carson Goff"
+          />
+        </div>
       </div>
     </Element>
   );
