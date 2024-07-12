@@ -15,7 +15,9 @@ function App() {
         <Hero />
         <div className="container mt-4 mx-auto py-4">
           <Research />
-          <About />
+        </div>
+        <About />
+        <div className="container mx-auto py-4">
           <Booking />
         </div>
         <Footer />
