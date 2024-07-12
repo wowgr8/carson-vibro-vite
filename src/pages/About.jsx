@@ -19,6 +19,7 @@ function About() {
           }}
         >
           <svg
+            // text-transparent to hide dividing svg or remove completely - WIP
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-24 transform translate-x-1/2 text-inherit"
             fill="currentColor"
             viewBox="0 0 100 100"
