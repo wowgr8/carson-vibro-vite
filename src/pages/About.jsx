@@ -16,7 +16,7 @@ function About() {
     >
       <div className="relative z-10 lg:flex lg:items-center">
         <div className="lg:w-1/2 lg:h-full pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
-          <svg
+          {/* <svg
             className="hidden lg:block absolute right-0 inset-y-0 h-full w-24 transform translate-x-1/2 text-inherit"
             fill="currentColor"
             viewBox="0 0 100 100"
@@ -24,7 +24,7 @@ function About() {
             aria-hidden="true"
           >
             <polygon points="50,0 100,0 50,100 0,100"></polygon>
-          </svg>
+          </svg> */}
 
           <div className="pt-1"></div>
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
