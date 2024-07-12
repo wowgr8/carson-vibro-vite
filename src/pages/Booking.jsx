@@ -17,11 +17,11 @@ function Booking() {
   return (
     <Element
       name="bookingSection"
-      style={{
-        backgroundImage: `url(${SpaceBG})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      // style={{
+      //   backgroundImage: `url(${SpaceBG})`,
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      // }}
     >
       <div className="items-center justify-center mt-5">
         {/* <!-- Calendly inline widget begin --> */}
