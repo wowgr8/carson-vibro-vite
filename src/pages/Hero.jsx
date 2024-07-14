@@ -42,7 +42,7 @@ function Hero() {
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <a
             href="#"
-            className="inline-flex justify-center items-center py-3 px-5 text-yellow-300 hover:text-yellow-500 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 text-yellow-300 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]"
+            className="inline-flex justify-center items-center py-3 px-5 text-yellow-300 hover:text-yellow-500 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg"
           >
             Learn more
             <svg
