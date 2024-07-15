@@ -51,7 +51,12 @@ function Navbar() {
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex py-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 ">
             <li className="mr-6 hover:text-yellow-300">
-              <ScrollLink to="researchSection" smooth={true} duration={500}>
+              <ScrollLink
+                to="researchSection"
+                smooth={true}
+                duration={500}
+                offset={-50}
+              >
                 Research
               </ScrollLink>
             </li>
