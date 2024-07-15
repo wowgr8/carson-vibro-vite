@@ -39,12 +39,12 @@ function Hero() {
           A fully immersive, therapeutic sound experience designed to promote
           accelerated entry into deep meditative states.
         </h2>
-        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row items-center justify-center sm:space-y-0 sm:space-x-4 bg-red-500">
+        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row items-center justify-center sm:space-y-0 sm:space-x-4">
           <ScrollLink
             to="researchSection"
             smooth={true}
             duration={500}
-            className="inline-flex w-5/8 lg:w-1/2 justify-center items-center py-4 px-5 text-yellow-400 hover:text-yellow-500 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg capitalize duration-100 transform  cursor-pointer focus:ring-4 focus:ring-purple-900 focus:ring-opacity-50 focus:outline-none hover:-translate-y-1 bg-green-300"
+            className="inline-flex w-5/8 lg:w-1/2 justify-center items-center py-4 px-5 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg capitalize duration-100 transform  cursor-pointer border focus:ring-4 focus:ring-purple-900 focus:ring-opacity-50 focus:outline-none hover:-translate-y-1 bg-white/40"
           >
             Learn more
             <svg
