@@ -1,7 +1,8 @@
 import React from "react";
 import { Element, Link as ScrollLink } from "react-scroll";
 import { useMediaQuery } from "react-responsive";
-import PebblesStill from "../assets/img/pebblesHDstill.jpg";
+// import PebblesHDStill from "../assets/img/pebblesHDstill.jpg";
+import PebblesWEBM from "../assets/video/pebblesHDWebM.webm";
 
 function Hero() {
   const isSmallScreen = useMediaQuery({ query: "(max-width: 640px)" });
@@ -14,19 +15,39 @@ function Hero() {
       {/* Container for the video or image background */}
       <div className="absolute inset-0 z-10 overflow-hidden">
         {isSmallScreen ? (
-          <img
-            src={PebblesStill}
-            alt="Still Image"
+          //   <img
+          //   src={PebblesWEBM}
+          //   alt="Still Image"
+          //   className="w-full h-full object-cover"
+          // />
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
             className="w-full h-full object-cover"
-          />
+          >
+            <source src={PebblesWEBM} type="video/webm" />
+            Your browser does not support the video tag.
+          </video>
         ) : (
-          <iframe
-            src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-            className="w-full aspect-video object-cover"
-            title="pebblesHD"
-          ></iframe>
+          // <iframe
+          //   src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
+          //   frameBorder="0"
+          //   allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          //   className="w-full aspect-video object-cover"
+          //   title="pebblesHD"
+          // ></iframe>
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src={PebblesWEBM} type="video/webm" />
+            Your browser does not support the video tag.
+          </video>
         )}
       </div>
 
