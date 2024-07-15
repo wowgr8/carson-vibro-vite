@@ -33,9 +33,9 @@ function Hero() {
       {/* Container for the text */}
       <div className="relative py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-18 lg:px-12 z-20">
         <h1 className="pt-12 mb-4 text-4xl font-extrabold md:text-5xl lg:text-6xl text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
-          Let go of your mind. Let go of your body. Find your Self.
+          Let go of your mind. Let go of your body. Find your self.
         </h1>
-        <h2 className="mb-8 text-xl font-normal  lg:text-4xl sm:px-16 xl:px-48 text-white drop-shadow-[0_7.2px_2.2px_rgba(0,0,0,0.8)]">
+        <h2 className="mb-8 py-4 text-2xl font-semibold lg:text-4xl sm:px-16 xl:px-48 text-white drop-shadow-[0_7.2px_2.2px_rgba(0,0,0,0.8)]">
           A fully immersive, therapeutic sound experience designed to promote
           accelerated entry into deep meditative states.
         </h2>
@@ -44,11 +44,13 @@ function Hero() {
             to="researchSection"
             smooth={true}
             duration={500}
-            className="inline-flex w-5/8 lg:w-1/2 justify-center items-center py-4 px-5 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg capitalize duration-100 transform  cursor-pointer border focus:ring-4 focus:ring-purple-900 focus:ring-opacity-50 focus:outline-none hover:-translate-y-1 bg-white/40"
+            className="inline-flex w-5/8 lg:w-60 justify-center items-center py-4 px-5 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-3xl font-bold text-center rounded-lg capitalize duration-100 transform cursor-pointer border hover:-translate-y-1 bg-blue-950"
           >
-            Learn more
+            <h2 className="drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
+              Learn more
+            </h2>
             <svg
-              className="ml-2 -mr-1 w-5 h-5"
+              className="ml-2 -mr-1 w-8 h-8 drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
