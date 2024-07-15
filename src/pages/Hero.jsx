@@ -44,7 +44,7 @@ function Hero() {
             to="researchSection"
             smooth={true}
             duration={500}
-            className="inline-flex w-5/8 lg:w-1/2 justify-center items-center py-4 px-5 text-yellow-400 hover:text-yellow-500 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg capitalize duration-100 transform  cursor-pointer focus:ring-4 focus:ring-purple-900 focus:ring-opacity-50 focus:outline-none  bg-green-300"
+            className="inline-flex w-5/8 lg:w-1/2 justify-center items-center py-4 px-5 text-yellow-400 hover:text-yellow-500 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg capitalize duration-100 transform  cursor-pointer focus:ring-4 focus:ring-purple-900 focus:ring-opacity-50 focus:outline-none hover:-translate-y-1 bg-green-300"
           >
             Learn more
             <svg
