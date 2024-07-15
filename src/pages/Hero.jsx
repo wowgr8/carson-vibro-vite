@@ -1,5 +1,5 @@
 import React from "react";
-import { Element } from "react-scroll";
+import { Element, Link as ScrollLink } from "react-scroll";
 import { useMediaQuery } from "react-responsive";
 import PebblesStill from "../assets/img/pebblesHDstill.jpg";
 
@@ -39,9 +39,11 @@ function Hero() {
           A fully immersive, therapeutic sound experience designed to promote
           accelerated entry into deep meditative states.
         </h2>
-        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <a
-            href="#"
+        <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 bg-red-500">
+          <ScrollLink
+            to="researchSection"
+            smooth={true}
+            duration={500}
             className="inline-flex justify-center items-center py-3 px-5 text-yellow-300 hover:text-yellow-500 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-2xl font-bold text-center rounded-lg"
           >
             Learn more
@@ -57,7 +59,7 @@ function Hero() {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </ScrollLink>
         </div>
       </div>
     </Element>
