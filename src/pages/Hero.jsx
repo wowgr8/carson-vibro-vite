@@ -9,7 +9,7 @@ function Hero() {
   return (
     <Element
       name="heroSection"
-      className="relative flex lg:h-[90vh] sm:h-[90vh] shrink-0 flex-col items-center justify-center"
+      className="relative flex lg:h-[90vh] shrink-0 flex-col items-center justify-center"
     >
       {/* Container for the video or image background */}
       <div className="absolute inset-0 z-10 overflow-hidden">
