@@ -31,11 +31,11 @@ function Hero() {
       </div>
 
       {/* Container for the text */}
-      <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-20">
-        <h1 className="pt-12 mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-yellow-300 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+      <div className="relative py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-18 lg:px-12 z-20">
+        <h1 className="pt-12 mb-4 text-4xl font-extrabold md:text-5xl lg:text-6xl text-yellow-300 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           Let go of your mind. Let go of your body. Find your Self.
         </h1>
-        <h2 className="mb-8 text-lg font-normal  lg:text-4xl sm:px-16 xl:px-48 text-white drop-shadow-[0_7.2px_2.2px_rgba(0,0,0,0.8)]">
+        <h2 className="mb-8 text-xl font-normal  lg:text-4xl sm:px-16 xl:px-48 text-white drop-shadow-[0_7.2px_2.2px_rgba(0,0,0,0.8)]">
           A fully immersive, therapeutic sound experience designed to promote
           accelerated entry into deep meditative states.
         </h2>
