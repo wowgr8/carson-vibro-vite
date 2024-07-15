@@ -7,7 +7,7 @@ function About() {
   return (
     <Element
       name="aboutSection"
-      className="relative overflow-hidden mt-16"
+      className="relative overflow-hidden mt-16 py-11"
       style={{
         backgroundImage: `url(${SpaceBG})`,
         backgroundSize: "cover",
@@ -36,9 +36,9 @@ function About() {
             </div>
           </main>
         </div>
-        <div className="lg:w-1/2 lg:h-full py-6 lg:px-8 px-6">
+        <div className="lg:w-1/2 py-6 px-6 flex justify-center">
           <img
-            className="h-56 object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full rounded-2xl"
+            className="object-cover h-56 md:h-96 lg:h-full rounded-2xl"
             src={CarsonTEMP}
             alt="A headshot image of the practitioner, Carson Goff"
           />
