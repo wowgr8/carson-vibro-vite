@@ -10,18 +10,22 @@ function Navbar() {
     {
       title: "Home",
       path: "heroSection",
+      offset: 0,
     },
     {
       title: "Research",
       path: "researchSection",
+      offset: -50,
+    },
+    {
+      title: "Practitioner",
+      path: "aboutSection",
+      offset: 0,
     },
     {
       title: "Booking",
       path: "bookingSection",
-    },
-    {
-      title: "About",
-      path: "aboutSection",
+      offset: -55,
     },
   ];
 
@@ -61,13 +65,13 @@ function Navbar() {
               </ScrollLink>
             </li>
             <li className="mr-6 hover:text-yellow-300">
-              <ScrollLink to="bookingSection" smooth={true} duration={500}>
-                Booking
+              <ScrollLink to="aboutSection" smooth={true} duration={500}>
+                Practitioner
               </ScrollLink>
             </li>
             <li className="mr-6 hover:text-yellow-300">
-              <ScrollLink to="aboutSection" smooth={true} duration={500}>
-                About
+              <ScrollLink to="bookingSection" smooth={true} duration={500}>
+                Booking
               </ScrollLink>
             </li>
           </ul>
@@ -84,6 +88,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={link.offset}
                 className="hover:text-yellow-300"
               >
                 {link.title}
