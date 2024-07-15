@@ -1,16 +1,12 @@
 import React from "react";
 import { Element, Link as ScrollLink } from "react-scroll";
-import { useMediaQuery } from "react-responsive";
-// import PebblesHDStill from "../assets/img/pebblesHDstill.jpg";
 import PebblesWEBM from "../assets/video/pebblesHDWebM.webm";
 
 function Hero() {
-  const isSmallScreen = useMediaQuery({ query: "(max-width: 640px)" });
-
   return (
     <Element
       name="heroSection"
-      className="relative flex lg:h-[90vh] shrink-0 flex-col items-center justify-center"
+      className="relative flex md:h-[90vh] h-[91vh] shrink-0 flex-col items-center justify-center"
     >
       {/* Container for the video background */}
       <div className="absolute inset-0 z-10 overflow-hidden">
