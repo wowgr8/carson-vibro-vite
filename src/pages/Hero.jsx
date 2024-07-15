@@ -12,43 +12,18 @@ function Hero() {
       name="heroSection"
       className="relative flex lg:h-[90vh] shrink-0 flex-col items-center justify-center"
     >
-      {/* Container for the video or image background */}
+      {/* Container for the video background */}
       <div className="absolute inset-0 z-10 overflow-hidden">
-        {isSmallScreen ? (
-          //   <img
-          //   src={PebblesWEBM}
-          //   alt="Still Image"
-          //   className="w-full h-full object-cover"
-          // />
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-          >
-            <source src={PebblesWEBM} type="video/webm" />
-            Your browser does not support the video tag.
-          </video>
-        ) : (
-          // <iframe
-          //   src="https://player.vimeo.com/video/959153035?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&loop=1&background=1"
-          //   frameBorder="0"
-          //   allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-          //   className="w-full aspect-video object-cover"
-          //   title="pebblesHD"
-          // ></iframe>
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-          >
-            <source src={PebblesWEBM} type="video/webm" />
-            Your browser does not support the video tag.
-          </video>
-        )}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src={PebblesWEBM} type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       {/* Container for the text */}
@@ -65,6 +40,7 @@ function Hero() {
             to="researchSection"
             smooth={true}
             duration={500}
+            offset={-80}
             className="inline-flex w-5/8 lg:w-60 justify-center items-center py-4 px-5 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-3xl font-bold text-center rounded-lg capitalize duration-100 transform cursor-pointer border-2 hover:-translate-y-1 border-yellow-400 bg-white/30"
           >
             <h2 className="drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
