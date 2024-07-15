@@ -15,7 +15,7 @@ function About() {
       }}
     >
       <div className="relative z-10 lg:flex lg:items-center">
-        <div className="lg:w-1/2 lg:h-full pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-64">
+        <div className="lg:w-1/2 lg:h-full pb-8 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-60">
           <div className="pt-1"></div>
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center md:text-center lg:text-left">
@@ -23,7 +23,7 @@ function About() {
                 MEET YOUR PRACTITIONER
               </h2>
 
-              <p className="text-white drop-shadow-[0_7.2px_1.2px_rgba(0,0,0,0.8)]">
+              <p className="text-white sm:text-2xl text-lg drop-shadow-[0_7.2px_1.2px_rgba(0,0,0,0.8)]">
                 Donec porttitor, enim ut dapibus lobortis, lectus sem tincidunt
                 dui, eget ornare lectus ex non libero. Nam rhoncus diam ultrices
                 porttitor laoreet. Ut mollis fermentum ex, vel viverra lorem
@@ -36,9 +36,9 @@ function About() {
             </div>
           </main>
         </div>
-        <div className="lg:w-1/2 lg:h-full py-10 px-10">
+        <div className="lg:w-1/2 lg:h-full py-6 lg:px-8 px-6">
           <img
-            className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full rounded-2xl"
+            className="h-56 object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full rounded-2xl"
             src={CarsonTEMP}
             alt="A headshot image of the practitioner, Carson Goff"
           />
