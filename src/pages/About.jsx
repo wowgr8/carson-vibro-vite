@@ -38,7 +38,7 @@ function About() {
         </div>
         <div className="lg:w-1/2 py-6 px-6 flex justify-center">
           <img
-            className="object-cover h-56 md:h-96 lg:h-full rounded-2xl"
+            className="object-cover h-56 sm:h-72 md:h-96 lg:h-full rounded-2xl"
             src={CarsonTEMP}
             alt="A headshot image of the practitioner, Carson Goff"
           />
