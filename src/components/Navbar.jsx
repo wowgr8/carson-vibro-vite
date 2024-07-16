@@ -30,7 +30,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-50 bg-blue-950">
+    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-50 bg-blue-950 py-2">
       <div className="flex container lg-py-4 flex-wrap">
         <ScrollLink to="hero" smooth={true} duration={500}>
           {/* <img src={Logo} alt="Logo" width={160} height={40} /> */}
@@ -53,8 +53,8 @@ function Navbar() {
           )}
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex py-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 ">
-            <li className="mr-6 hover:text-yellow-300">
+          <ul className="flex py-4 text-white sm:text-xl rounded md:p-0 ">
+            <li className="mx-6 hover:text-yellow-300">
               <ScrollLink
                 to="researchSection"
                 smooth={true}
