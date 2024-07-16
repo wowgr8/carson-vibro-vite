@@ -35,24 +35,24 @@ function Navbar() {
         <ScrollLink to="hero" smooth={true} duration={500}>
           {/* <img src={Logo} alt="Logo" width={160} height={40} /> */}
         </ScrollLink>
-        <div className=" mobile-menu block md:hidden">
+        <div className=" mobile-menu block sm:hidden">
           {!expandNavbar ? (
             <button
               onClick={() => setExpandNavbar(true)}
               className="flex items-center px-3 py-2 border rounded border-yellow-200 hover:text-yellow-400 hover:border-yellow-400 text-yellow-300"
             >
-              <FaBars className=" h-5 w-5" />
+              <FaBars className="h-6 w-8" />
             </button>
           ) : (
             <button
               onClick={() => setExpandNavbar(false)}
               className="flex items-center px-3 py-2 border rounded border-yellow-200 hover:text-yellow-400 hover:border-yellow-400 text-yellow-300"
             >
-              <IoCloseSharp className="h-5 w-5" />
+              <IoCloseSharp className="h-6 w-8" />
             </button>
           )}
         </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
+        <div className="menu hidden sm:block sm:w-auto" id="navbar">
           <ul className="flex py-4 text-white sm:text-xl rounded md:p-0 ">
             <li className="mx-6 hover:text-yellow-300">
               <ScrollLink
