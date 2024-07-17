@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Element } from "react-scroll";
-import SpaceBG from "../assets/img/purple-space-background.jpg";
+import Mind14 from "../assets/img/mind-14-landscape.jpg";
+import Mind06 from "../assets/img/mind-06.jpg";
 
 function Booking() {
   useEffect(() => {
@@ -17,11 +18,13 @@ function Booking() {
   return (
     <Element
       name="bookingSection"
-      // style={{
-      //   backgroundImage: `url(${SpaceBG})`,
-      //   backgroundSize: "cover",
-      //   backgroundPosition: "center",
-      // }}
+      className="relative overflow-hidden mt-16 py-11"
+      style={{
+        backgroundImage: `url(${Mind06})`,
+        // backgroundImage: `url(${Mind14})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       <div className="items-center justify-center mt-5">
         {/* <!-- Calendly inline widget begin --> */}
