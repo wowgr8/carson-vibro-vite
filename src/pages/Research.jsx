@@ -2,6 +2,8 @@ import React from "react";
 import { Element } from "react-scroll";
 import { BenefitsList } from "../helpers/Benefits";
 import { SeenOnList } from "../helpers/SeenOn";
+// import BedGifSemiTransparent from "../assets/gif/Bed-semi-transparent.gif";
+import BedGifSemiTransparent from "../assets/gif/Bed-transparent-v2.gif";
 
 function Research() {
   return (
@@ -40,7 +42,8 @@ function Research() {
 
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <img
-          src="//sagespacetechnologies.com/cdn/shop/files/Bed_1024x1024.gif?v=1679135086"
+          // src="//sagespacetechnologies.com/cdn/shop/files/Bed_1024x1024.gif?v=1679135086"
+          src={BedGifSemiTransparent}
           alt="Image of person laying on vibroacoustic therapy bed"
         ></img>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
