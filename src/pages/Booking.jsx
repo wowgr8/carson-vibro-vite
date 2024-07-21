@@ -18,7 +18,7 @@ function Booking() {
   return (
     <Element
       name="bookingSection"
-      className="relative overflow-hidden py-8 px-8 sm:py-2 sm:px-2"
+      className="relative overflow-hidden py-8 px-8 sm:py-6 sm:px-6"
       style={{
         // backgroundImage: `url(${Mind06})`,
         backgroundImage: `url(${Mind14})`,
@@ -27,11 +27,15 @@ function Booking() {
       }}
     >
       <div className="items-center justify-center">
+        <div className="text-yellow-400 mt-4 mb-5 sm:mb-0 lg:my-6 flex justify-center  text-3xl sm:text-3xl md:text-4xl font-bold drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
+          <h2>SCHEDULE A CONSULTATION</h2>
+        </div>
         {/* <!-- Calendly inline widget begin --> */}
         <div
-          className="calendly-inline-widget"
-          // add to url below to hide left pane: https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1&hide_event_type_details=1
-          data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1"
+          className="calendly-inline-widget sm:-mt-3"
+          // Top data-url hides left pane:
+          data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1&hide_event_type_details=1"
+          // data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1"
           style={{ minWidth: "320px", height: "700px" }}
         ></div>
         {/* <!-- Calendly inline widget end --> */}
