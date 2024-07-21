@@ -19,7 +19,7 @@ function About() {
           <div className="pt-1"></div>
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center md:text-center lg:text-left">
-              <h2 className="my-6 text-2xl tracking-tight font-extrabold text-yellow-400 sm:text-3xl md:text-4xl drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-center">
+              <h2 className="my-6 text-2xl tracking-tight font-extrabold text-yellow-400 text-center  sm:text-3xl md:text-4xl drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
                 MEET YOUR PRACTITIONER
               </h2>
 
