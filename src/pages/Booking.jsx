@@ -27,7 +27,7 @@ function Booking() {
       }}
     >
       <div className="items-center justify-center">
-        <div className="text-yellow-400 mt-4 mb-5 sm:mb-0 lg:my-6 flex justify-center  text-3xl sm:text-3xl md:text-4xl font-bold drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
+        <div className="text-yellow-400 mt-4 mb-5 sm:mb-0 lg:my-6 flex justify-center  text-3xl sm:text-3xl md:text-4xl font-extrabold drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
           <h2>SCHEDULE A CONSULTATION</h2>
         </div>
         {/* <!-- Calendly inline widget begin --> */}
