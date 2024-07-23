@@ -23,7 +23,7 @@ function About() {
                 MEET YOUR PRACTITIONER
               </h2>
 
-              <p className="text-white sm:text-2xl text-lg drop-shadow-[0_7.2px_1.2px_rgba(0,0,0,0.8)]">
+              <p className="text-white sm:text-2xl text-lg md:text-left drop-shadow-[0_7.2px_1.2px_rgba(0,0,0,0.8)]">
                 Donec porttitor, enim ut dapibus lobortis, lectus sem tincidunt
                 dui, eget ornare lectus ex non libero. Nam rhoncus diam ultrices
                 porttitor laoreet. Ut mollis fermentum ex, vel viverra lorem
