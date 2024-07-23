@@ -17,9 +17,7 @@ function App() {
           <Research />
         </div>
         <About />
-        <div className="container mx-auto py-4">
-          <Booking />
-        </div>
+        <Booking />
         <Footer />
       </Router>
     </main>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Element } from "react-scroll";
-import SpaceBG from "../assets/img/purple-space-background.jpg";
+import Mind14 from "../assets/img/mind-14-landscape.jpg";
+import Mind06 from "../assets/img/mind-06.jpg";
 
 function Booking() {
   useEffect(() => {
@@ -17,20 +18,25 @@ function Booking() {
   return (
     <Element
       name="bookingSection"
-      // style={{
-      //   backgroundImage: `url(${SpaceBG})`,
-      //   backgroundSize: "cover",
-      //   backgroundPosition: "center",
-      // }}
+      className="relative overflow-hidden py-8 px-8 sm:py-6 sm:px-6"
+      style={{
+        // backgroundImage: `url(${Mind06})`,
+        backgroundImage: `url(${Mind14})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
-      <div className="items-center justify-center mt-5">
+      <div className="flex flex-col items-center justify-center">
+        <div className="text-yellow-400 mt-4 mb-5 lg:my-6 flex justify-center  text-3xl sm:text-3xl md:text-4xl font-extrabold drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
+          <h2>SCHEDULE A CONSULTATION</h2>
+        </div>
         {/* <!-- Calendly inline widget begin --> */}
         <div
-          className="calendly-inline-widget"
-          data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1"
-          style={{ minWidth: "320px", height: "700px" }}
+          className="calendly-inline-widget w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl h-[550px] sm:h-[600px] md:h-[600px] lg:h-[700px]"
+          // Top data-url hides left pane:
+          data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1&hide_event_type_details=1"
+          // data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1"
         ></div>
-        {/* <!-- Calendly inline widget end --> */}
       </div>
     </Element>
   );
