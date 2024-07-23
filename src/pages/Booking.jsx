@@ -32,11 +32,12 @@ function Booking() {
         </div>
         {/* <!-- Calendly inline widget begin --> */}
         <div
-          className="calendly-inline-widget sm:-mt-3"
+          // className="calendly-inline-widget sm:-mt-3"
+          className="calendly-inline-widget w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl h-[700px] sm:h-[650px] md:h-[700px] bg-red-500"
           // Top data-url hides left pane:
           data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1&hide_event_type_details=1"
           // data-url="https://calendly.com/773ohh/vibe-thrive-session?hide_gdpr_banner=1"
-          style={{ minWidth: "320px", height: "700px" }}
+          // style={{ minWidth: "320px", height: "700px" }}
         ></div>
         {/* <!-- Calendly inline widget end --> */}
       </div>
