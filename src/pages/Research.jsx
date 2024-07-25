@@ -47,7 +47,7 @@ function Research() {
             {/* Keep this sub-title styling */}
             How It Works?
           </h2>
-          <p className="text-base md:text-lg text-black dark:text-white mb-3">
+          <p className="text-base sm:text-xl text-black dark:text-white mb-3">
             Vibroacoustic Therapy works by delivering a wide range of sound
             waves into the body, where they are converted by the body into
             electrical signals. This process influences the overall energetic
@@ -58,7 +58,7 @@ function Research() {
           <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
             Other Benefits:
           </h2>
-          <p className="text-base md:text-lg text-black dark:text-white">
+          <p className="text-base sm:text-xl text-black dark:text-white">
             In addition to its therapeutic benefits, Vibroacoustic Therapy also
             offers an immersive, pleasurable experience. The therapy can change
             one's sensations and overall perception of the body in space,
