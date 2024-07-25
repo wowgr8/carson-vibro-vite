@@ -8,7 +8,7 @@ function Research() {
   return (
     <Element name="researchSection">
       <div className="flex flex-col items-center justify-center mt-5">
-        <h1 className="text-center md:text-left text-4xl sm:text-3xl md:text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+        <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           What Is Vibroacoustic Therapy?
         </h1>
         <p className="mx-6 mb-5 sm:text-2xl text-lg md:text-left text-black dark:text-white">
