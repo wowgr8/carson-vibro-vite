@@ -44,6 +44,7 @@ function Research() {
         ></img>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+            {/* Keep this sub-title styling */}
             How It Works?
           </h2>
           <p className="text-base md:text-lg text-black dark:text-white mb-3">
@@ -54,7 +55,7 @@ function Research() {
             cells to a state of homeostasis (balance), which ultimately supports
             an ideal state of health.
           </p>
-          <h2 className="text-4xl font-bold text-black dark:text-white mb-4">
+          <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
             Other Benefits:
           </h2>
           <p className="text-base md:text-lg text-black dark:text-white">
