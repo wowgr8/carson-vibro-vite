@@ -8,10 +8,10 @@ function Research() {
   return (
     <Element name="researchSection">
       <div className="flex flex-col items-center justify-center mt-5">
-        <h1 className="text-4xl font-bold mb-4 text-black dark:text-white">
+        <h1 className="text-center md:text-left text-4xl sm:text-3xl md:text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           What Is Vibroacoustic Therapy?
         </h1>
-        <h2 className="text-xl mx-7 text-black dark:text-white">
+        <p className="mx-7 sm:text-2xl text-lg md:text-left text-black dark:text-white">
           The human body is a complex cellular communication system relying on
           the continuous flow of chemical and electrical signals in order to
           maintain itself. When the flow of this information is compromised or
@@ -21,7 +21,7 @@ function Research() {
           deeper level and facilitate it in more efficiently restoring normal
           communication pathways and optimal function. Vibroacoustic Therapy has
           been featured in...
-        </h2>
+        </p>
       </div>
       {/* SEEN ON BANNER SECTION: */}
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
