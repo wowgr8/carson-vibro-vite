@@ -13,9 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Hero />
-        <div className="container mt-4 mx-auto py-4">
-          <Research />
-        </div>
+        <Research />
         <About />
         <Booking />
         <Footer />
