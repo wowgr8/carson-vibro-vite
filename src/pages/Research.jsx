@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 import { BenefitsList } from "../helpers/Benefits";
 import { SeenOnList } from "../helpers/SeenOn";
 import BedGifSemiTransparent from "../assets/gif/Bed-transparent-v2.gif";
+import BrainTransparent from "../assets/img/brain-transparent.webp";
 
 function Research() {
   return (
@@ -70,6 +71,11 @@ function Research() {
             can provide an individual with the ability to achieve unique
             benefits for modern-day living.
           </p>
+          <img
+            src={BrainTransparent}
+            alt="Image of person laying on vibroacoustic therapy bed"
+            className="py-8"
+          ></img>
           {/* GRID SECTION - FOR CONSUMERS DETAILS */}
           {/* <div className="grid grid-cols-3 gap-4">
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
