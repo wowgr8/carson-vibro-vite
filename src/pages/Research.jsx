@@ -24,7 +24,7 @@ function Research() {
         </p>
       </div>
       {/* SEEN ON BANNER SECTION: */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {/* <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {SeenOnList.map((outlet) => (
           <div key={outlet.id} className="p-4 text-center">
             <img
@@ -34,7 +34,7 @@ function Research() {
             />
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <img
@@ -91,7 +91,7 @@ function Research() {
           </div> */}
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {BenefitsList.map((benefit) => (
           <div key={benefit.id} className="p-4 text-center">
             <img
@@ -102,6 +102,25 @@ function Research() {
             <p className="text-black dark:text-white mt-4">
               {benefit.description}
             </p>
+          </div>
+        ))}
+      </div>
+      <h2 className="text-center sm:text-left text-3xl font-bold my-6 pt-12 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+        Vibroacoustic Therapy has been featured in...
+      </h2>
+
+      {/* SEEN ON BANNER SECTION: */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {SeenOnList.map((outlet) => (
+          <div
+            key={outlet.id}
+            className="p-4 text-center drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]"
+          >
+            <img
+              src={outlet.image}
+              alt={outlet.description}
+              className="mx-auto"
+            />
           </div>
         ))}
       </div>
