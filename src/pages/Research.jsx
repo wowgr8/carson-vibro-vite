@@ -11,16 +11,19 @@ function Research() {
         <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           What Is Vibroacoustic Therapy?
         </h1>
-        <p className="mx-6 mb-5 sm:text-2xl text-lg md:text-left text-black dark:text-white">
+        <p className="mx-6 mb-5 text-2xl sm:text-2xl md:text-left text-black dark:text-white">
           The human body is a complex cellular communication system relying on
           the continuous flow of chemical and electrical signals in order to
           maintain itself. When the flow of this information is compromised or
           imbalanced, it can cause physical, cognitive or emotional issues to
-          arise. Vibroacoustic Therapy is a unique, evidence-based form of
-          therapy that combines sound and vibration to support the body at a
-          deeper level and facilitate it in more efficiently restoring normal
-          communication pathways and optimal function. Vibroacoustic Therapy has
-          been featured in...
+          arise.
+          {/* How to conditionally render a line break? remove on sm screens and up */}
+          <br />
+          <br />
+          Vibroacoustic Therapy is a unique, evidence-based form of therapy that
+          combines sound and vibration to support the body at a deeper level and
+          facilitate it in more efficiently restoring normal communication
+          pathways and optimal function.
         </p>
       </div>
       {/* SEEN ON BANNER SECTION: */}
@@ -91,6 +94,8 @@ function Research() {
           </div> */}
         </div>
       </div>
+
+      {/* BENEFITS LIST SECTION: */}
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {BenefitsList.map((benefit) => (
           <div key={benefit.id} className="p-4 text-center">
