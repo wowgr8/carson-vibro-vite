@@ -12,7 +12,7 @@ function Research() {
         <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           What Is Vibroacoustic Therapy?
         </h1>
-        <p className="mx-6 mb-5 text-2xl sm:text-2xl md:text-left text-black dark:text-white">
+        <p className="mx-6 mb-5 md:px-32 text-2xl sm:text-2xl md:text-left text-black dark:text-white">
           The human body is a complex cellular communication system relying on
           the continuous flow of chemical and electrical signals in order to
           maintain itself. When the flow of this information is compromised or
