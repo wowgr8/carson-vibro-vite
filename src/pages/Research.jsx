@@ -27,18 +27,6 @@ function Research() {
           pathways and optimal function.
         </p>
       </div>
-      {/* SEEN ON BANNER SECTION: */}
-      {/* <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {SeenOnList.map((outlet) => (
-          <div key={outlet.id} className="p-4 text-center">
-            <img
-              src={outlet.image}
-              alt={outlet.description}
-              className="mx-auto"
-            />
-          </div>
-        ))}
-      </div> */}
 
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <img
