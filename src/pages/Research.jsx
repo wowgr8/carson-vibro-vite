@@ -26,7 +26,7 @@ function Research() {
           pathways and optimal function.
         </p>
       </div>
-      <div className="bg-gradient-to-b from-blue-950 via-indigo-950 to-blue-950">
+      <div className="bg-gradient-to-b from-blue-950 via-violet-950 to-blue-950">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-24">
           <img
             src={BedGifSemiTransparent}
