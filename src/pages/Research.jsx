@@ -8,45 +8,36 @@ function Research() {
   return (
     <Element name="researchSection">
       <div className="flex flex-col items-center justify-center mt-5">
-        <h1 className="text-4xl font-bold mb-4 text-black dark:text-white">
+        <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 md:pb-10 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           What Is Vibroacoustic Therapy?
         </h1>
-        <h2 className="text-xl mx-7 text-black dark:text-white">
+        <p className="mx-6 mb-5 md:px-32 lg:px-72 text-2xl md:text-3xl md:text-left text-black dark:text-white">
           The human body is a complex cellular communication system relying on
           the continuous flow of chemical and electrical signals in order to
           maintain itself. When the flow of this information is compromised or
           imbalanced, it can cause physical, cognitive or emotional issues to
-          arise. Vibroacoustic Therapy is a unique, evidence-based form of
-          therapy that combines sound and vibration to support the body at a
-          deeper level and facilitate it in more efficiently restoring normal
-          communication pathways and optimal function. Vibroacoustic Therapy has
-          been featured in...
-        </h2>
-      </div>
-      {/* SEEN ON BANNER SECTION: */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {SeenOnList.map((outlet) => (
-          <div key={outlet.id} className="p-4 text-center">
-            <img
-              src={outlet.image}
-              alt={outlet.description}
-              className="mx-auto"
-            />
-          </div>
-        ))}
+          arise.
+          {/* How to conditionally render a line break? remove on sm screens and up */}
+          <br />
+          <br />
+          Vibroacoustic Therapy is a unique, evidence-based form of therapy that
+          combines sound and vibration to support the body at a deeper level and
+          facilitate it in more efficiently restoring normal communication
+          pathways and optimal function.
+        </p>
       </div>
 
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-24">
         <img
           src={BedGifSemiTransparent}
           alt="Image of person laying on vibroacoustic therapy bed"
           className=""
         ></img>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-black dark:text-white mb-4">
+          <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
             How It Works?
           </h2>
-          <p className="text-base md:text-lg text-black dark:text-white mb-3">
+          <p className="text-xl lg:text-2xl text-black dark:text-white mb-3">
             Vibroacoustic Therapy works by delivering a wide range of sound
             waves into the body, where they are converted by the body into
             electrical signals. This process influences the overall energetic
@@ -54,10 +45,10 @@ function Research() {
             cells to a state of homeostasis (balance), which ultimately supports
             an ideal state of health.
           </p>
-          <h2 className="text-4xl font-bold text-black dark:text-white mb-4">
+          <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
             Other Benefits:
           </h2>
-          <p className="text-base md:text-lg text-black dark:text-white">
+          <p className="text-xl lg:text-2xl text-black dark:text-white">
             In addition to its therapeutic benefits, Vibroacoustic Therapy also
             offers an immersive, pleasurable experience. The therapy can change
             one's sensations and overall perception of the body in space,
@@ -90,7 +81,9 @@ function Research() {
           </div> */}
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+      {/* BENEFITS LIST SECTION: */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {BenefitsList.map((benefit) => (
           <div key={benefit.id} className="p-4 text-center">
             <img
@@ -98,11 +91,33 @@ function Research() {
               alt={benefit.description}
               className="mx-auto"
             />
-            <p className="text-black dark:text-white mt-4">
+            <p className="text-black dark:text-white mt-4 text-lg md:text-2xl">
               {benefit.description}
             </p>
           </div>
         ))}
+      </div>
+      {/* following div should have it's own background color */}
+      <div>
+        <h2 className="text-center text-4xl font-extrabold my-6 pt-8 md:pt-32 pb-12 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+          Vibroacoustic Therapy has been featured in...
+        </h2>
+
+        {/* SEEN ON BANNER SECTION: */}
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 pb-10">
+          {SeenOnList.map((outlet) => (
+            <div
+              key={outlet.id}
+              className="p-4 text-center drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]"
+            >
+              <img
+                src={outlet.image}
+                alt={outlet.description}
+                className="mx-auto"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </Element>
   );

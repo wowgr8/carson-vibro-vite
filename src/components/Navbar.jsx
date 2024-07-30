@@ -78,7 +78,7 @@ function Navbar() {
         </div>
       </div>
       {expandNavbar ? (
-        <ul className="flex flex-col py-4 items-center text-yellow-300">
+        <ul className="flex flex-col pb-4 font-extrabold text-3xl items-center text-yellow-300">
           {" "}
           {mobileMenuLinks.map((link, index) => (
             <li key={index}>
