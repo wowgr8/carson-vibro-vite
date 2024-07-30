@@ -11,7 +11,7 @@ function Research() {
         <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 md:pb-10 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           What Is Vibroacoustic Therapy?
         </h1>
-        <p className="mx-6 mb-5 md:px-32 xl:px-72 text-2xl md:text-3xl md:text-left text-black dark:text-white">
+        <p className="mx-6 mb-5 md:px-32 lg:px-72 text-2xl md:text-3xl md:text-left text-black dark:text-white">
           The human body is a complex cellular communication system relying on
           the continuous flow of chemical and electrical signals in order to
           maintain itself. When the flow of this information is compromised or
@@ -27,7 +27,7 @@ function Research() {
         </p>
       </div>
 
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-24">
         <img
           src={BedGifSemiTransparent}
           alt="Image of person laying on vibroacoustic therapy bed"
@@ -97,24 +97,27 @@ function Research() {
           </div>
         ))}
       </div>
-      <h2 className="text-center text-4xl font-bold my-6 pt-32 pb-12 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
-        Vibroacoustic Therapy has been featured in...
-      </h2>
+      {/* following div should have it's own background color */}
+      <div>
+        <h2 className="text-center text-4xl font-extrabold my-6 pt-8 md:pt-32 pb-12 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+          Vibroacoustic Therapy has been featured in...
+        </h2>
 
-      {/* SEEN ON BANNER SECTION: */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {SeenOnList.map((outlet) => (
-          <div
-            key={outlet.id}
-            className="p-4 text-center drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]"
-          >
-            <img
-              src={outlet.image}
-              alt={outlet.description}
-              className="mx-auto"
-            />
-          </div>
-        ))}
+        {/* SEEN ON BANNER SECTION: */}
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {SeenOnList.map((outlet) => (
+            <div
+              key={outlet.id}
+              className="p-4 text-center drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]"
+            >
+              <img
+                src={outlet.image}
+                alt={outlet.description}
+                className="mx-auto"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </Element>
   );
