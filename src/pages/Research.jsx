@@ -3,7 +3,6 @@ import { Element } from "react-scroll";
 import { BenefitsList } from "../helpers/Benefits";
 import { SeenOnList } from "../helpers/SeenOn";
 import BedGifSemiTransparent from "../assets/gif/Bed-transparent-v2.gif";
-import BrainTransparent from "../assets/img/brain-transparent.webp";
 
 function Research() {
   return (
@@ -36,7 +35,6 @@ function Research() {
         ></img>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
-            {/* Keep this sub-title styling */}
             How It Works?
           </h2>
           <p className="text-xl lg:text-2xl text-black dark:text-white mb-3">
