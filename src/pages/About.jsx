@@ -7,7 +7,7 @@ function About() {
   return (
     <Element
       name="aboutSection"
-      className="relative overflow-hidden mt-16 py-11"
+      className="relative overflow-hidden py-11"
       style={{
         backgroundImage: `url(${SpaceBG})`,
         backgroundSize: "cover",
