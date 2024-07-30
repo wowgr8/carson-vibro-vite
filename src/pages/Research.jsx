@@ -104,7 +104,7 @@ function Research() {
         </h2>
 
         {/* SEEN ON BANNER SECTION: */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 pb-10">
           {SeenOnList.map((outlet) => (
             <div
               key={outlet.id}
