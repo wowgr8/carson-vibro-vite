@@ -9,10 +9,10 @@ function Research() {
   return (
     <Element name="researchSection">
       <div className="flex flex-col items-center justify-center mt-5">
-        <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+        <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 md:pb-10 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
           What Is Vibroacoustic Therapy?
         </h1>
-        <p className="mx-6 mb-5 md:px-32 text-2xl sm:text-2xl md:text-left text-black dark:text-white">
+        <p className="mx-6 mb-5 md:px-32 xl:px-72 text-2xl md:text-3xl md:text-left text-black dark:text-white">
           The human body is a complex cellular communication system relying on
           the continuous flow of chemical and electrical signals in order to
           maintain itself. When the flow of this information is compromised or
@@ -39,7 +39,7 @@ function Research() {
             {/* Keep this sub-title styling */}
             How It Works?
           </h2>
-          <p className="text-base sm:text-xl text-black dark:text-white mb-3">
+          <p className="text-xl lg:text-2xl text-black dark:text-white mb-3">
             Vibroacoustic Therapy works by delivering a wide range of sound
             waves into the body, where they are converted by the body into
             electrical signals. This process influences the overall energetic
@@ -50,7 +50,7 @@ function Research() {
           <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
             Other Benefits:
           </h2>
-          <p className="text-base sm:text-xl text-black dark:text-white">
+          <p className="text-xl lg:text-2xl text-black dark:text-white">
             In addition to its therapeutic benefits, Vibroacoustic Therapy also
             offers an immersive, pleasurable experience. The therapy can change
             one's sensations and overall perception of the body in space,
@@ -98,13 +98,13 @@ function Research() {
               alt={benefit.description}
               className="mx-auto"
             />
-            <p className="text-black dark:text-white mt-4">
+            <p className="text-black dark:text-white mt-4 text-lg md:text-2xl">
               {benefit.description}
             </p>
           </div>
         ))}
       </div>
-      <h2 className="text-center sm:text-left text-3xl font-bold my-6 pt-12 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+      <h2 className="text-center text-4xl font-bold my-6 pt-32 pb-12 text-black dark:text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
         Vibroacoustic Therapy has been featured in...
       </h2>
 
