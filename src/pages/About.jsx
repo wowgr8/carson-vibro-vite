@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import CarsonTEMP from "../assets/img/carson-goff-temp.jpeg";
+import CarsonIMG from "../assets/img/carson-pro-small.jpg";
 import SpaceBG from "../assets/img/purple-space-background.jpg";
 
 function About() {
@@ -39,7 +39,7 @@ function About() {
         <div className="lg:w-1/2 py-6 px-6 flex justify-center">
           <img
             className="object-cover h-56 sm:h-72 md:h-96 lg:h-full rounded-2xl"
-            src={CarsonTEMP}
+            src={CarsonIMG}
             alt="A headshot image of the practitioner, Carson Goff"
           />
         </div>
