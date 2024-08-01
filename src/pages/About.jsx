@@ -24,14 +24,14 @@ function About() {
               </h2>
 
               <p className="text-white sm:text-2xl lg:text-3xl lg:pt-5 text-2xl md:text-left drop-shadow-[0_7.2px_1.2px_rgba(0,0,0,0.8)]">
-                Donec porttitor, enim ut dapibus lobortis, lectus sem tincidunt
-                dui, eget ornare lectus ex non libero. Nam rhoncus diam ultrices
-                porttitor laoreet. Ut mollis fermentum ex, vel viverra lorem
-                volutpat sodales. In ornare porttitor odio sit amet laoreet. Sed
-                laoreet, nulla a posuere ultrices, purus nulla tristique turpis,
-                hendrerit rutrum augue quam ut est. Fusce malesuada posuere
-                libero, vitae dapibus eros facilisis euismod. Sed sed lobortis
-                justo, ut tincidunt velit. Mauris in maximus eros.
+                Carson shares his natural gifts as a student of spiritual
+                sciences, a graduate in audio engineering from Ohio State
+                University, and a seasoned DJ and producer. In 2022, Carson felt
+                inspired to step away from conventional music gigs in Idaho to
+                explore a more profound path in Oregon. There, he connected with
+                like-minded individuals and immersed himself in the study of
+                sound healing and spiritual music, which profoundly influenced
+                his path as a sound healer.
               </p>
             </div>
           </main>
