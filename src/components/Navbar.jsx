@@ -59,7 +59,7 @@ function Navbar() {
                 to="researchSection"
                 smooth={true}
                 duration={500}
-                offset={-50}
+                offset={-45}
               >
                 Research
               </ScrollLink>
@@ -70,7 +70,12 @@ function Navbar() {
               </ScrollLink>
             </li>
             <li className="mr-6 hover:text-yellow-300">
-              <ScrollLink to="bookingSection" smooth={true} duration={500}>
+              <ScrollLink
+                to="bookingSection"
+                smooth={true}
+                duration={500}
+                offset={-45}
+              >
                 Booking
               </ScrollLink>
             </li>
