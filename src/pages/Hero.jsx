@@ -40,7 +40,7 @@ function Hero() {
             className="inline-flex w-5/8 lg:w-60 justify-center items-center py-4 px-5 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-3xl font-bold text-center rounded-lg capitalize duration-100 transform cursor-pointer border-2 hover:-translate-y-1 border-yellow-400 bg-white/30"
           >
             <h2 className="drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
-              Learn more
+              BOOK NOW
             </h2>
             <svg
               className="ml-2 -mr-1 w-8 h-8 drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]"
