@@ -33,14 +33,14 @@ function Hero() {
         </h2>
         <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row items-center justify-center sm:space-y-0 sm:space-x-4">
           <ScrollLink
-            to="researchSection"
+            to="bookingSection"
             smooth={true}
             duration={500}
             offset={-75}
             className="inline-flex w-5/8 lg:w-60 justify-center items-center py-4 px-5 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)] text-3xl font-bold text-center rounded-lg capitalize duration-100 transform cursor-pointer border-2 hover:-translate-y-1 border-yellow-400 bg-white/30"
           >
             <h2 className="drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]">
-              BOOK NOW
+              Book Now
             </h2>
             <svg
               className="ml-2 -mr-1 w-8 h-8 drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,0.8)]"
