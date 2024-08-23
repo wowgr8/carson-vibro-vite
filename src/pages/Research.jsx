@@ -54,17 +54,20 @@ function Research() {
               and harmony are restored to the body. This idea helps to explain
               why vibroacoustic therapy is so impactful.
             </p>
+
+            {/* Placeholder for 3 main phenomena */}
+            <div> VAT utilizes these three main phenomena PLACEHOLDER</div>
+
             <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
               Other Benefits:
             </h2>
             <p className="text-xl lg:text-2xl text-white">
-              In addition to its therapeutic benefits, Vibroacoustic Therapy
-              also offers an immersive, pleasurable experience. The therapy can
-              change one's sensations and overall perception of the body in
-              space, entrain the brainwave patterns to states of deep
-              meditation, and promote non-ordinary states of consciousness. This
-              connected state can provide an individual with the ability to
-              achieve unique benefits for modern-day living.
+              In addition to its emotional and physical therapeutic benefits,
+              Vibroacoustic Therapy also offers an immersive experience that is
+              unparalleled by other sound therapies. VAT can entrain brainwave
+              patterns to states of deep meditation, providing clients with
+              unique and profound benefits that they can learn to use in their
+              everyday lives.
             </p>
             {/* GRID SECTION - FOR CONSUMERS DETAILS */}
             {/* <div className="grid grid-cols-3 gap-4">
