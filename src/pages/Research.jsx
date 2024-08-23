@@ -109,6 +109,10 @@ function Research() {
             </div>
           ))}
         </div>
+
+        {/* CONDITIONS SECTION PLACEHOLDER */}
+        <div>CONDITIONS SECTION</div>
+
         {/* following div should have it's own background color */}
         {/*       <div className="bg-gradient-to-b from-blue-950 via-indigo-950 to-blue-950"> */}
         <div>
