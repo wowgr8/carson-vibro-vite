@@ -41,12 +41,18 @@ function Research() {
               How It Works?
             </h2>
             <p className="text-xl lg:text-2xl text-white mb-3">
-              Vibroacoustic Therapy works by delivering a wide range of sound
-              waves into the body, where they are converted by the body into
-              electrical signals. This process influences the overall energetic
-              state of the body and serves to promote the return of compromised
-              cells to a state of homeostasis (balance), which ultimately
-              supports an ideal state of health.
+              Vibroacoustic therapy uses low-frequency vibrations between 30 and
+              120 Hz, accompanied by the use of headphones that cover the rest
+              of the frequency spectrum, typically up to 20,000 hertz.
+              <br />
+              <br />
+              As humans, we consist of about 70% water, and it has been proven
+              that sound and frequencies travel about four times faster and more
+              efficiently through water than through air. As water is moved by
+              vibration, its molecules, cells, and DNA react and communicate
+              with each other. As this communication occurs, healthy resonance
+              and harmony are restored to the body. This idea helps to explain
+              why vibroacoustic therapy is so impactful.
             </p>
             <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
               Other Benefits:
