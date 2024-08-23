@@ -20,10 +20,13 @@ function Research() {
           {/* How to conditionally render a line break? remove on sm screens and up */}
           <br />
           <br />
-          Vibroacoustic Therapy is a unique, evidence-based form of therapy that
-          combines sound and vibration to support the body at a deeper level and
-          facilitate it in more efficiently restoring normal communication
-          pathways and optimal function.
+          Vibroacoustic therapy (VAT) is a unique, non-invasive, evidence-based
+          form of sound therapy. VAT is a safe, drug-free approach to reducing
+          pain and anxiety while improving the quality of everyday life. Whether
+          you are suffering from overload in your work life or dealing with a
+          serious medical condition, VAT is a powerful modality that will help
+          you relax and restore normal communication pathways and optimal
+          function throughout the body.
         </p>
       </div>
       <div className="bg-gradient-to-b from-blue-950 via-violet-950 to-blue-950">
