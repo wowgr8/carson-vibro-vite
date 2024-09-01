@@ -7,7 +7,7 @@ function Footer() {
         {/* Address and Logo section */}
         <div className="p-5 sm:w-7/12 flex flex-col items-center justify-center">
           <h3 className="font-bold text-5xl mb-4 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
-            Vibe & Thrive
+            Vibe N Thrive
           </h3>
           <h3 className="text-xl text-white">
             4204 SE Boise st. Portland Oregon 97206
