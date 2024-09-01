@@ -29,7 +29,7 @@ function Research() {
           function throughout the body.
         </p>
       </div>
-      <div className="bg-gradient-to-b from-blue-950 via-violet-950 to-blue-950">
+      <div className="bg-gradient-to-b from-blue-950 via-violet-900 to-blue-950">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-24">
           <img
             src={BedGifSemiTransparent}
@@ -70,6 +70,27 @@ function Research() {
               everyday lives.
             </p>
             {/* GRID SECTION - FOR CONSUMERS DETAILS */}
+            {/* <div className="grid grid-cols-3 gap-4">
+            <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+              {BenefitsList.map((benefit, index) => {
+                return (
+                  // <motion.li
+                  // key={benefit.id}
+                  // variants={cardVariants}
+                  // initial="initial"
+                  // animate={isInView ? "animate" : "initial"}
+                  // transition = {{duration: 0.3, delay:index * 0.4 }}
+                  // >
+                  
+                    key={index}
+                    image={benefit.image}
+                    description={benefit.description}
+                  
+                  // </motion.li>
+                );
+              }))}
+            </ul>
+          </div> */}
           </div>
         </div>
 
