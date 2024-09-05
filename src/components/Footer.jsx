@@ -10,7 +10,7 @@ function Footer() {
             Vibe N Thrive
           </h3>
           <h3 className="text-xl text-white">
-            4204 SE Boise st. Portland Oregon 97206
+            5311 SE Powell Blvd. Portland Oregon 97206
           </h3>
         </div>
         {/* Map section */}
