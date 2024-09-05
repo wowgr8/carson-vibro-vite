@@ -17,7 +17,7 @@ function Footer() {
         <div className="p-5 sm:w-5/12">
           <div className="relative pt-[60%] overflow-hidden border-4 border-yellow-400">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.8728214636294!2d-122.62123792350295!3d45.49250573154936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a070935d5ce5%3A0xefeed5e3b1ec70ef!2s4204%20SE%20Boise%20St%2C%20Portland%2C%20OR%2097206!5e0!3m2!1sen!2sus!4v1720203368890!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11186.451206449135!2d-122.61795992816945!3d45.497741377740404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a066225fa171%3A0xcd3ef0394c325bc6!2s5311%20SE%20Powell%20Blvd%2C%20Portland%2C%20OR%2097206!5e0!3m2!1sen!2sus!4v1725499563169!5m2!1sen!2sus"
               className="absolute inset-0 w-full h-full"
               allowFullScreen=""
               loading="lazy"
