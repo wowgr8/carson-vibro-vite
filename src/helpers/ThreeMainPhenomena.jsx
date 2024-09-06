@@ -9,6 +9,6 @@ export const PhenomenaList = [
     id: 2,
     title: "Cymatics",
     description:
-      "Cymatics is the study of sound - wave phenomena- through liquid and loose particulate material. Since the body is about 70% water, Vibroacoustic therapy utilizes the idea of cymatics to create movement and has the ability to restructure cells and DNA in a much more harmonious way.",
+      "Cymatics is the study of sound wave phenomena through liquid and loose particulate material. Since the body is approximately 70% water, Vibroacoustic therapy applies the principles of cymatics to create movement, with the potential to restructure cells and DNA in a more harmonious way.",
   },
 ];
