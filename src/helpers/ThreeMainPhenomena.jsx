@@ -11,4 +11,10 @@ export const PhenomenaList = [
     description:
       "Cymatics is the study of sound wave phenomena through liquid and loose particulate material. Since the body is approximately 70% water, Vibroacoustic therapy applies the principles of cymatics to create movement, with the potential to restructure cells and DNA in a more harmonious way.",
   },
+  {
+    id: 3,
+    title: "Intention",
+    description:
+      "Frequency + Intention + proper application = POWERFUL Healing. By the use of Intention setting we will work with you to align your focus and energy towards a specific goal or desired state. When combined with the healing vibrations of vibroacoustics, intentions gain an amplified power that can catalyze deep and profound transformations emotionally and physically.",
+  },
 ];
