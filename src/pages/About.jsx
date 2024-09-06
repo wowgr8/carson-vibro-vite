@@ -25,7 +25,7 @@ function About() {
 
               <p className="text-white sm:text-2xl lg:text-3xl lg:pt-5 text-2xl md:text-left drop-shadow-[0_7.2px_1.2px_rgba(0,0,0,0.8)]">
                 Carson shares his natural gifts as a student of spiritual
-                sciences, a graduate in audio engineering from Ohio State
+                sciences, a graduate in media production from Boise State
                 University, and a seasoned DJ and producer. In 2022, Carson felt
                 inspired to step away from conventional music gigs in Idaho to
                 explore a more profound path in Oregon. There, he connected with
