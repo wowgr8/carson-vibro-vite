@@ -15,6 +15,6 @@ export const PhenomenaList = [
     id: 3,
     title: "Intention",
     description:
-      "Frequency + Intention + proper application = POWERFUL Healing. By the use of Intention setting we will work with you to align your focus and energy towards a specific goal or desired state. When combined with the healing vibrations of vibroacoustics, intentions gain an amplified power that can catalyze deep and profound transformations emotionally and physically.",
+      "Frequency + Intention + Proper Application = Powerful Healing. Through intention setting, we work with you to align your focus and energy toward a specific goal or desired state. When combined with the healing vibrations of vibroacoustics, intentions gain amplified power, catalyzing deep and profound emotional and physical transformations.",
   },
 ];
