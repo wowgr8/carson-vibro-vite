@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState, useTransition } from "react";
 import { Element } from "react-scroll";
 import { BenefitsList } from "../helpers/Benefits";
 import { SeenOnList } from "../helpers/SeenOn";
+import { PhenomenaList } from "../helpers/ThreeMainPhenomena";
+import PhenomenaButton from "../components/PhenomenaButton";
 import BedGifSemiTransparent from "../assets/gif/Bed-transparent-v2.gif";
 
 function Research() {
+  const [tab, setTab] = useState("Brain Wave Entrainment");
+  const [isPending, startTransition] = useTransition();
+
+  const handleTabChange = (id) => {
+    startTransition(() => {
+      setTab(id);
+    });
+  };
   return (
     <Element name="researchSection">
       <div className="flex flex-col items-center justify-center mt-5">
@@ -56,7 +66,30 @@ function Research() {
             </p>
 
             {/* Placeholder for 3 main phenomena */}
-            <div> VAT utilizes these three main phenomena PLACEHOLDER</div>
+            <div className="flex flex-row mt-8">
+              <h2>VAT utilizes these three main phenomena PLACEHOLDER</h2>
+              <PhenomenaButton
+                selectTab={() => handleTabChange("Brain Wave Entrainment")}
+                active={tab === "Brain Wave Entrainment"}
+              >
+                Brain Wave Entrainment
+              </PhenomenaButton>
+              <PhenomenaButton
+                selectTab={() => handleTabChange("Cymatics")}
+                active={tab === "Cymatics"}
+              >
+                Cymatics
+              </PhenomenaButton>
+              <PhenomenaButton
+                selectTab={() => handleTabChange("Intention")}
+                active={tab === "Intention"}
+              >
+                Intention
+              </PhenomenaButton>
+            </div>
+            <div className="mt-8 ">
+              {PhenomenaList.find((t) => t.id === tab).description}
+            </div>
 
             <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
               Other Benefits:
