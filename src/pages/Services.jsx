@@ -53,8 +53,8 @@ function Services() {
           </div>
 
           {/* Combined Technology Section in One Card */}
-          <div className="bg-violet-900 rounded-lg shadow-lg p-6">
-            <h2 className="text-3xl font-bold text-yellow-400 mb-6">
+          <div className="bg-violet-900 rounded-lg shadow-lg p-6 mt-10">
+            <h2 className="text-3xl font-bold text-yellow-400 mb-6 text-center">
               Cutting-edge Technology
             </h2>
             <p className="text-lg text-white mb-8">
