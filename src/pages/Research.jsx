@@ -128,7 +128,7 @@ function Research() {
             </PhenomenaButton>
           </div>
         </div>
-        <div className="m-8 text-xl lg:text-2xl text-white">
+        <div className="m-12 text-xl lg:text-2xl text-white px-10 pb-3">
           {PhenomenaList.find((t) => t.id === tab).description}
         </div>
 
@@ -141,7 +141,7 @@ function Research() {
                 alt={benefit.description}
                 className="mx-auto"
               />
-              <p className="text-white mt-4 text-lg md:text-2xl">
+              <p className="text-white mt-4 text-lg md:text-2xl md:px-8">
                 {benefit.description}
               </p>
             </div>
@@ -149,7 +149,7 @@ function Research() {
         </div>
 
         {/* CONDITIONS SECTION PLACEHOLDER */}
-        <div>CONDITIONS SECTION</div>
+        {/* <div>CONDITIONS SECTION</div> */}
 
         {/* following div should have it's own background color */}
         {/*       <div className="bg-gradient-to-b from-blue-950 via-indigo-950 to-blue-950"> */}
