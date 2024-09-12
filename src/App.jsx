@@ -6,6 +6,7 @@ import Research from "./pages/Research";
 import Booking from "./pages/Booking";
 import About from "./pages/About";
 import Footer from "./components/Footer";
+import Services from "./pages/Services";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Research />
         <About />
+        <Services />
         <Booking />
         <Footer />
       </Router>
