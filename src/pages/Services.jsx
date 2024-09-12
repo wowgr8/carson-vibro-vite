@@ -52,6 +52,66 @@ function Services() {
             </div>
           </div>
 
+          {/* Combined Technology Section in One Card */}
+          <div className="bg-violet-900 rounded-lg shadow-lg p-6">
+            <h2 className="text-3xl font-bold text-yellow-400 mb-6">
+              Cutting-edge Technology
+            </h2>
+            <p className="text-lg text-white mb-8">
+              Our advanced sound therapy technology turns your entire body into
+              a resonating speaker, sending healing vibrations through every
+              organ and cell. Using electromagnetic pulsing, masculine and
+              feminine energy balance, Vogel crystals, and Tesla Coils, our
+              BioVibe tables amplify healing in a revolutionary way.
+            </p>
+
+            {/* Technology Details - 2x2 Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Column 1 */}
+              <div className="mb-6">
+                <h3 className="text-2xl font-semibold text-yellow-400 mb-2">
+                  Electromagnetic Pulsing
+                </h3>
+                <p className="text-lg text-white mb-6">
+                  One of the most powerful forces on Earth, electromagnetic
+                  pulsing helps direct vibrational acoustics, promoting balance
+                  between masculine and feminine energies.
+                </p>
+
+                <h3 className="text-2xl font-semibold text-yellow-400 mb-2">
+                  Masculine & Feminine Energy
+                </h3>
+                <p className="text-lg text-white">
+                  By harmonizing these two energy forces, we achieve a balanced
+                  and comprehensive healing experience.
+                </p>
+              </div>
+
+              {/* Column 2 */}
+              <div className="mb-6">
+                <h3 className="text-2xl font-semibold text-yellow-400 mb-2">
+                  Embedded Vogel Crystal
+                </h3>
+                <p className="text-lg text-white mb-6">
+                  Vogel crystals in our BioVibe tables amplify and transmit the
+                  Universal Life Force Energy, or "Chi." The crystal’s precise
+                  cut enhances the user’s energy, aligning it with the crystal’s
+                  structural perfection.
+                </p>
+
+                <h3 className="text-2xl font-semibold text-yellow-400 mb-2">
+                  Tesla Coils
+                </h3>
+                <p className="text-lg text-white">
+                  Designed by Nikola Tesla, this technology generates
+                  oscillating waves to produce low-frequency pulsing magnetic
+                  fields. It aids in treating pain and detoxifying the body
+                  during sessions with our BioVibe tables.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Pricing Section */}
           <div className="bg-violet-900 rounded-lg shadow-lg p-6 mt-12">
             <h2 className="text-3xl font-bold text-yellow-400 mb-4">
