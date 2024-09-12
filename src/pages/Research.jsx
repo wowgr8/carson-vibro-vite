@@ -65,32 +65,6 @@ function Research() {
               why vibroacoustic therapy is so impactful.
             </p>
 
-            {/* Placeholder for 3 main phenomena */}
-            <div className="flex flex-row mt-8">
-              <h2>VAT utilizes these three main phenomena PLACEHOLDER</h2>
-              <PhenomenaButton
-                selectTab={() => handleTabChange("Brain Wave Entrainment")}
-                active={tab === "Brain Wave Entrainment"}
-              >
-                Brain Wave Entrainment
-              </PhenomenaButton>
-              <PhenomenaButton
-                selectTab={() => handleTabChange("Cymatics")}
-                active={tab === "Cymatics"}
-              >
-                Cymatics
-              </PhenomenaButton>
-              <PhenomenaButton
-                selectTab={() => handleTabChange("Intention")}
-                active={tab === "Intention"}
-              >
-                Intention
-              </PhenomenaButton>
-            </div>
-            <div className="mt-8 ">
-              {PhenomenaList.find((t) => t.id === tab).description}
-            </div>
-
             <h2 className="text-center sm:text-left text-4xl font-extrabold my-6 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
               Other Benefits:
             </h2>
@@ -125,6 +99,37 @@ function Research() {
             </ul>
           </div> */}
           </div>
+        </div>
+
+        {/* Three Main Phenomena Section */}
+        <div className="m-8">
+          <h2 className="text-center text-4xl font-extrabold my-6 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+            VAT Utilizes These Three Main Phenomena
+          </h2>
+          <div className="flex justify-evenly">
+            {" "}
+            <PhenomenaButton
+              selectTab={() => handleTabChange("Brain Wave Entrainment")}
+              active={tab === "Brain Wave Entrainment"}
+            >
+              Brain Wave Entrainment
+            </PhenomenaButton>
+            <PhenomenaButton
+              selectTab={() => handleTabChange("Cymatics")}
+              active={tab === "Cymatics"}
+            >
+              Cymatics
+            </PhenomenaButton>
+            <PhenomenaButton
+              selectTab={() => handleTabChange("Intention")}
+              active={tab === "Intention"}
+            >
+              Intention
+            </PhenomenaButton>
+          </div>
+        </div>
+        <div className="m-8 text-xl lg:text-2xl text-white">
+          {PhenomenaList.find((t) => t.id === tab).description}
         </div>
 
         {/* BENEFITS LIST SECTION: */}
