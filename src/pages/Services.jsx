@@ -4,14 +4,108 @@ import { Element } from "react-scroll";
 function Services() {
   return (
     <Element name="servicesSection">
-      <div className="bg-gradient-to-b from-blue-950 via-violet-900 to-blue-950">
-        <div className="flex flex-col items-center justify-center mt-5">
-          <h1 className="text-center md:text-left text-4xl sm:text-4xl md:text-5xl font-extrabold my-6 md:pb-10 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
+      <div className="bg-gradient-to-b from-blue-950 via-violet-900 to-blue-950 py-16">
+        <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24">
+          <h1 className="text-center text-4xl sm:text-5xl font-extrabold mb-10 text-yellow-400 drop-shadow-[0_6.2px_4.2px_rgba(0,0,0,0.8)]">
             Services
           </h1>
-          <p className="mx-6 mb-5 md:px-32 lg:px-72 text-2xl md:text-3xl md:text-left text-white">
-            Services placeholder
-          </p>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Vibrational Sound Table Therapy Overview */}
+            <div className="bg-blue-900 rounded-lg shadow-lg p-6">
+              <h2 className="text-3xl font-bold text-yellow-400 mb-4">
+                Vibrational Sound Table Therapy
+              </h2>
+              <p className="text-lg text-white mb-6">
+                Our Vibrational Sound Table Therapy uses frequencies to resonate
+                through the entire body, vibrating the organs, muscles, and
+                bones. This therapy combines ancient wisdom with modern
+                technology to create a deeply immersive and effective
+                experience.
+              </p>
+              <p className="text-lg text-white">
+                The table emits low frequencies that sync with healing music,
+                promoting brainwave entrainment and inducing a meditative state
+                while releasing energy blockages and restoring balance.
+              </p>
+            </div>
+
+            {/* Benefits List */}
+            <div className="bg-blue-900 rounded-lg shadow-lg p-6">
+              <h2 className="text-3xl font-bold text-yellow-400 mb-4">
+                Our Therapies Help With:
+              </h2>
+              <ul className="list-disc list-inside text-lg text-white space-y-2">
+                <li>Sleep deprivation, insomnia, and poor rest</li>
+                <li>Anxiety, depression, and stress</li>
+                <li>Emotional blockage and release</li>
+                <li>Chronic pain, headaches, and internal pain</li>
+                <li>Detoxifying organs and muscles</li>
+                <li>Releasing limiting belief systems</li>
+                <li>Reactivating creativity and healing</li>
+                <li>Cell rejuvenation and bone regrowth</li>
+                <li>Balancing adrenals and endorphins</li>
+                <li>Deepening meditation and subconscious connection</li>
+                <li>Activating chakras and energy systems</li>
+                <li>Raising consciousness and spiritual alignment</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Pricing Section */}
+          <div className="bg-violet-900 rounded-lg shadow-lg p-6 mt-12">
+            <h2 className="text-3xl font-bold text-yellow-400 mb-4">
+              Pricing & Membership Options
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Session Pricing */}
+              <div className="text-white">
+                <h3 className="text-2xl font-semibold mb-2">Session Rates</h3>
+                <ul className="list-disc list-inside text-lg space-y-2">
+                  <li>$70-100 per hour (most effective)</li>
+                  <li>$40-50 per half-hour</li>
+                </ul>
+              </div>
+
+              {/* Membership Plans */}
+              <div className="text-white">
+                <h3 className="text-2xl font-semibold mb-2">
+                  Membership Plans
+                </h3>
+                <ul className="list-disc list-inside text-lg space-y-2">
+                  <li>Monthly - $270 (4 sessions)</li>
+                  <li>Quarterly - $725 (12 sessions)</li>
+                  <li>Yearly - $2,500 (52 sessions)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Rewards Section */}
+          <div className="bg-violet-800 rounded-lg shadow-lg p-6 mt-12">
+            <h2 className="text-3xl font-bold text-yellow-400 mb-4">
+              Rewards & Booking
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Rewards */}
+              <div className="text-white">
+                <h3 className="text-2xl font-semibold mb-2">Rewards</h3>
+                <ul className="list-disc list-inside text-lg space-y-2">
+                  <li>Get 50% off after 10 sessions</li>
+                  <li>Refer a friend and receive $10 off your next session</li>
+                </ul>
+              </div>
+
+              {/* Booking Information */}
+              <div className="text-white">
+                <h3 className="text-2xl font-semibold mb-2">Booking</h3>
+                <p className="text-lg">
+                  If the available times don’t fit your schedule, feel free to
+                  reach out, and we’ll do our best to accommodate you.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Element>
