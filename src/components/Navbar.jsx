@@ -23,6 +23,11 @@ function Navbar() {
       offset: 0,
     },
     {
+      title: "Services",
+      path: "servicesSection",
+      offset: 0,
+    },
+    {
       title: "Booking",
       path: "bookingSection",
       offset: -55,
@@ -67,6 +72,11 @@ function Navbar() {
             <li className="mr-6 hover:text-yellow-300">
               <ScrollLink to="aboutSection" smooth={true} duration={500}>
                 Practitioner
+              </ScrollLink>
+            </li>
+            <li className="mr-6 hover:text-yellow-300">
+              <ScrollLink to="servicesSection" smooth={true} duration={500}>
+                Services
               </ScrollLink>
             </li>
             <li className="mr-6 hover:text-yellow-300">
