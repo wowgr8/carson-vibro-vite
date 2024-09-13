@@ -128,7 +128,7 @@ function Research() {
             </PhenomenaButton>
           </div>
         </div>
-        <div className="m-12 text-xl lg:text-2xl text-white px-10 pb-3">
+        <div className="m-5 md:m-12 text-xl lg:text-2xl text-white px-2 md:px-10 pb-3">
           {PhenomenaList.find((t) => t.id === tab).description}
         </div>
 
