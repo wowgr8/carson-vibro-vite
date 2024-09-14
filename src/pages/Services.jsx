@@ -151,6 +151,7 @@ function Services() {
               <div className="text-white">
                 <h3 className="text-2xl font-semibold mb-2">Rewards</h3>
                 <ul className="list-disc list-inside text-lg space-y-2">
+                  <li>Get 50% off after your second session</li>
                   <li>Get 50% off after 10 sessions</li>
                   <li>Refer a friend and receive $10 off your next session</li>
                 </ul>
