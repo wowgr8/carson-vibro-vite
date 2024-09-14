@@ -27,9 +27,8 @@ function Research() {
           maintain itself. When the flow of this information is compromised or
           imbalanced, it can cause physical, cognitive or emotional issues to
           arise.
-          {/* How to conditionally render a line break? remove on sm screens and up */}
-          <br />
-          <br />
+        </p>
+        <p className="mx-6 mb-5 md:px-32 lg:px-72 text-2xl md:text-3xl md:text-left text-white">
           Vibroacoustic therapy (VAT) is a unique, non-invasive, evidence-based
           form of sound therapy. VAT is a safe, drug-free approach to reducing
           pain and anxiety while improving the quality of everyday life. Whether
@@ -112,7 +111,7 @@ function Research() {
               selectTab={() => handleTabChange("Brain Wave Entrainment")}
               active={tab === "Brain Wave Entrainment"}
             >
-              Brain Wave Entrainment
+              Brainwave Entrainment
             </PhenomenaButton>
             <PhenomenaButton
               selectTab={() => handleTabChange("Cymatics")}
