@@ -33,7 +33,7 @@ function Services() {
             {/* Benefits List */}
             <div className="bg-blue-900 rounded-lg shadow-lg p-6">
               <h2 className="text-3xl font-bold text-yellow-400 mb-4">
-                Our Therapies Help With:
+                Our Therapies Can Help With:
               </h2>
               <ul className="list-disc list-inside text-lg text-white space-y-2">
                 <li>Sleep deprivation, insomnia, and poor rest</li>
