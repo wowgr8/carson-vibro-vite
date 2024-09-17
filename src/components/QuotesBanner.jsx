@@ -7,6 +7,21 @@ function QuotesBanner() {
       quote: "",
       author: "",
     },
+    {
+      id: 2,
+      quote: "",
+      author: "",
+    },
+    {
+      id: 3,
+      quote: "",
+      author: "",
+    },
+    {
+      id: 4,
+      quote: "",
+      author: "",
+    },
   ];
 
   return <div>QuotesBanner</div>;
