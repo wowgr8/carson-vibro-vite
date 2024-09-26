@@ -5,6 +5,7 @@ import { SeenOnList } from "../helpers/SeenOn";
 import { PhenomenaList } from "../helpers/ThreeMainPhenomena";
 import PhenomenaButton from "../components/PhenomenaButton";
 import BedGifSemiTransparent from "../assets/gif/Bed-transparent-v2.gif";
+import QuotesBanner from "../components/QuotesBanner";
 
 function Research() {
   const [tab, setTab] = useState("Brain Wave Entrainment");
@@ -146,6 +147,8 @@ function Research() {
             </div>
           ))}
         </div>
+
+        <QuotesBanner />
 
         {/* CONDITIONS SECTION PLACEHOLDER */}
         {/* <div>CONDITIONS SECTION</div> */}
