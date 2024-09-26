@@ -1,7 +1,7 @@
 import React from "react";
 
 function QuotesBanner() {
-  quotes_data = [
+  let quotes_data = [
     {
       id: 1,
       quote: "",
@@ -23,7 +23,6 @@ function QuotesBanner() {
       author: "",
     },
   ];
-
   return (
     <blockquote className="relative">
       <svg
