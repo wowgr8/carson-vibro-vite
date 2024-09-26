@@ -25,9 +25,9 @@ function QuotesBanner() {
   ];
 
   return (
-    <blockquote class="relative">
+    <blockquote className="relative">
       <svg
-        class="absolute -top-6 -start-8 size-16 text-gray-100 dark:text-neutral-700"
+        className="absolute -top-6 -start-8 size-16 text-gray-100 dark:text-neutral-700"
         width="16"
         height="16"
         viewBox="0 0 16 16"
@@ -41,17 +41,18 @@ function QuotesBanner() {
         ></path>
       </svg>
 
-      <div class="relative z-10">
-        <p class="text-gray-800 sm:text-xl dark:text-white">
+      <div className="relative z-10">
+        <p className="text-gray-800 sm:text-xl dark:text-white">
           <em>
             I just wanted to say that I'm very happy with my purchase so far.
             The documentation is outstanding - clear and detailed.
           </em>
+          Name
         </p>
       </div>
 
-      <footer class="mt-6">
-        <div class="text-base font-semibold text-gray-800 dark:text-neutral-400">
+      <footer className="mt-6">
+        <div className="text-base font-semibold text-gray-800 dark:text-neutral-400">
           Josh Grazioso
         </div>
       </footer>
