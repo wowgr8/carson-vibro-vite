@@ -24,12 +24,12 @@ function QuotesBanner() {
     },
   ];
   return (
-    <blockquote className="relative">
+    <blockquote className="relative mx-5 my-8">
       <svg
-        className="absolute -top-6 -start-8 size-16 text-gray-100 dark:text-neutral-700"
+        className="absolute mx-7 -top-6 -start-8 size-16 text-gray-100 dark:text-neutral-700"
         width="16"
         height="16"
-        viewBox="0 0 16 16"
+        viewBox="0 0 18 18"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
@@ -40,7 +40,7 @@ function QuotesBanner() {
         ></path>
       </svg>
 
-      <div className="relative z-10">
+      <div className="relative z-10 mx-14">
         <p className="text-gray-800 sm:text-xl dark:text-white">
           <em>
             I just wanted to say that I'm very happy with my purchase so far.
@@ -50,9 +50,9 @@ function QuotesBanner() {
         </p>
       </div>
 
-      <footer className="mt-6">
+      <footer className="mt-6 mr-8 flex justify-end">
         <div className="text-base font-semibold text-gray-800 dark:text-neutral-400">
-          Josh Grazioso
+          - Josh Grazioso
         </div>
       </footer>
     </blockquote>
