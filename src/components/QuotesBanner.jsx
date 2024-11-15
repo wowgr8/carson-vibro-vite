@@ -10,18 +10,21 @@ function QuotesBanner() {
     },
     {
       id: 2,
-      quote: "",
-      author: "",
+      quote:
+        "Everything is energy and that’s all there is to it. Match the frequency of the reality you want and you cannot help but get that reality. It can be no other way. This is not philosophy. This is physics.",
+      author: "Albert Einstein",
     },
     {
       id: 3,
-      quote: "",
-      author: "",
+      quote:
+        "Sound healing is an invitation into a deeper state of consciousness, where you unplug from external stimuli and focus on what’s going on within you.",
+      author: "Sara Auster, Renowned Sound Therapist",
     },
     {
       id: 4,
-      quote: "",
-      author: "",
+      quote:
+        "You can look at disease as a form of disharmony. And there’s no organ system in the body that’s not affected by sound and music and vibration.",
+      author: "Mitchell Gaynor, M.D.",
     },
   ];
   return (
