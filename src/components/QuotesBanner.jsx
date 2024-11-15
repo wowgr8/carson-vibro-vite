@@ -4,8 +4,9 @@ function QuotesBanner() {
   let quotes_data = [
     {
       id: 1,
-      quote: "",
-      author: "",
+      quote:
+        "If you want to find the secrets of the universe, think in terms of energy, frequency,and vibration",
+      author: "Nikola Tesla",
     },
     {
       id: 2,
