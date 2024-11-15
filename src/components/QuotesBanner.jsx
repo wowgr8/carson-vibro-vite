@@ -64,3 +64,10 @@ function QuotesBanner() {
 }
 
 export default QuotesBanner;
+
+quotes_data.map(() => (
+  <li key={quotes_data.id}>
+    <ul>{quotes_data.quote}</ul>
+    <ul>{quotes_data.author}</ul>
+  </li>
+));
