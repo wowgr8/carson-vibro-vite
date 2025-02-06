@@ -34,7 +34,7 @@ function Booking() {
         <div
           className="calendly-inline-widget w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl h-[550px] sm:h-[600px] md:h-[600px] lg:h-[700px]"
           // Top data-url hides left pane:
-          data-url="https://calendly.com/vibenthrivevibroacoustics/30min?hide_gdpr_banner=1&hide_event_type_details=1"
+          data-url="https://calendly.com/vibenthrivevibroacoustics/60-min-session?hide_gdpr_banner=1&hide_event_type_details=1"
           // data-url="https://calendly.com/vibenthrivevibroacoustics/30min?hide_gdpr_banner=1"
         ></div>
       </div>
